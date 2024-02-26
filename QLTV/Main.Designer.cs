@@ -33,17 +33,17 @@
             panel4 = new Panel();
             button14 = new Button();
             button15 = new Button();
-            button9 = new Button();
-            button10 = new Button();
-            button12 = new Button();
-            button8 = new Button();
-            button7 = new Button();
-            button6 = new Button();
-            button5 = new Button();
+            buttonMuonSach = new Button();
+            buttonLSMuon_Tra = new Button();
+            buttonDocGia = new Button();
+            buttonTheLoai = new Button();
+            buttonTacGia = new Button();
+            buttonNhaXuatBan = new Button();
+            buttonSach = new Button();
             button4 = new Button();
             button3 = new Button();
             button2 = new Button();
-            button1 = new Button();
+            buttonCuaSoLamViec = new Button();
             panel2 = new Panel();
             label1 = new Label();
             pictureBox1 = new PictureBox();
@@ -51,13 +51,13 @@
             pictureBox2 = new PictureBox();
             panelMain = new Panel();
             panel5 = new Panel();
-            panel3 = new Panel();
-            button11 = new Button();
-            button16 = new Button();
-            button17 = new Button();
-            button13 = new Button();
-            textBox1 = new TextBox();
             button18 = new Button();
+            textBox1 = new TextBox();
+            button13 = new Button();
+            button17 = new Button();
+            button16 = new Button();
+            button11 = new Button();
+            panel3 = new Panel();
             panel1.SuspendLayout();
             panel4.SuspendLayout();
             panel2.SuspendLayout();
@@ -81,17 +81,17 @@
             // 
             panel4.Controls.Add(button14);
             panel4.Controls.Add(button15);
-            panel4.Controls.Add(button9);
-            panel4.Controls.Add(button10);
-            panel4.Controls.Add(button12);
-            panel4.Controls.Add(button8);
-            panel4.Controls.Add(button7);
-            panel4.Controls.Add(button6);
-            panel4.Controls.Add(button5);
+            panel4.Controls.Add(buttonMuonSach);
+            panel4.Controls.Add(buttonLSMuon_Tra);
+            panel4.Controls.Add(buttonDocGia);
+            panel4.Controls.Add(buttonTheLoai);
+            panel4.Controls.Add(buttonTacGia);
+            panel4.Controls.Add(buttonNhaXuatBan);
+            panel4.Controls.Add(buttonSach);
             panel4.Controls.Add(button4);
             panel4.Controls.Add(button3);
             panel4.Controls.Add(button2);
-            panel4.Controls.Add(button1);
+            panel4.Controls.Add(buttonCuaSoLamViec);
             panel4.Location = new Point(13, 68);
             panel4.Name = "panel4";
             panel4.Size = new Size(237, 680);
@@ -127,110 +127,112 @@
             button15.Text = "Báo cáo thống kê";
             button15.UseVisualStyleBackColor = true;
             // 
-            // button9
+            // buttonMuonSach
             // 
-            button9.FlatAppearance.BorderSize = 0;
-            button9.FlatStyle = FlatStyle.Flat;
-            button9.Font = new Font("Calibri", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            button9.ForeColor = SystemColors.ButtonHighlight;
-            button9.Image = (Image)resources.GetObject("button9.Image");
-            button9.ImageAlign = ContentAlignment.MiddleLeft;
-            button9.Location = new Point(36, 279);
-            button9.Name = "button9";
-            button9.Size = new Size(138, 32);
-            button9.TabIndex = 11;
-            button9.Text = "Mượn sách";
-            button9.UseVisualStyleBackColor = true;
+            buttonMuonSach.FlatAppearance.BorderSize = 0;
+            buttonMuonSach.FlatStyle = FlatStyle.Flat;
+            buttonMuonSach.Font = new Font("Calibri", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            buttonMuonSach.ForeColor = SystemColors.ButtonHighlight;
+            buttonMuonSach.Image = (Image)resources.GetObject("buttonMuonSach.Image");
+            buttonMuonSach.ImageAlign = ContentAlignment.MiddleLeft;
+            buttonMuonSach.Location = new Point(36, 279);
+            buttonMuonSach.Name = "buttonMuonSach";
+            buttonMuonSach.Size = new Size(138, 32);
+            buttonMuonSach.TabIndex = 11;
+            buttonMuonSach.Text = "Mượn sách";
+            buttonMuonSach.UseVisualStyleBackColor = true;
             // 
-            // button10
+            // buttonLSMuon_Tra
             // 
-            button10.FlatAppearance.BorderSize = 0;
-            button10.FlatStyle = FlatStyle.Flat;
-            button10.Font = new Font("Calibri", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            button10.ForeColor = SystemColors.ButtonHighlight;
-            button10.Image = (Image)resources.GetObject("button10.Image");
-            button10.ImageAlign = ContentAlignment.MiddleLeft;
-            button10.Location = new Point(36, 306);
-            button10.Name = "button10";
-            button10.Size = new Size(179, 32);
-            button10.TabIndex = 10;
-            button10.Text = "Lịch sử mượn / trả";
-            button10.UseVisualStyleBackColor = true;
+            buttonLSMuon_Tra.FlatAppearance.BorderSize = 0;
+            buttonLSMuon_Tra.FlatStyle = FlatStyle.Flat;
+            buttonLSMuon_Tra.Font = new Font("Calibri", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            buttonLSMuon_Tra.ForeColor = SystemColors.ButtonHighlight;
+            buttonLSMuon_Tra.Image = (Image)resources.GetObject("buttonLSMuon_Tra.Image");
+            buttonLSMuon_Tra.ImageAlign = ContentAlignment.MiddleLeft;
+            buttonLSMuon_Tra.Location = new Point(36, 306);
+            buttonLSMuon_Tra.Name = "buttonLSMuon_Tra";
+            buttonLSMuon_Tra.Size = new Size(179, 32);
+            buttonLSMuon_Tra.TabIndex = 10;
+            buttonLSMuon_Tra.Text = "Lịch sử mượn / trả";
+            buttonLSMuon_Tra.UseVisualStyleBackColor = true;
             // 
-            // button12
+            // buttonDocGia
             // 
-            button12.FlatAppearance.BorderSize = 0;
-            button12.FlatStyle = FlatStyle.Flat;
-            button12.Font = new Font("Calibri", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            button12.ForeColor = SystemColors.ButtonHighlight;
-            button12.Image = (Image)resources.GetObject("button12.Image");
-            button12.ImageAlign = ContentAlignment.MiddleLeft;
-            button12.Location = new Point(36, 250);
-            button12.Name = "button12";
-            button12.Size = new Size(112, 32);
-            button12.TabIndex = 8;
-            button12.Text = "Độc giả";
-            button12.UseVisualStyleBackColor = true;
+            buttonDocGia.FlatAppearance.BorderSize = 0;
+            buttonDocGia.FlatStyle = FlatStyle.Flat;
+            buttonDocGia.Font = new Font("Calibri", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            buttonDocGia.ForeColor = SystemColors.ButtonHighlight;
+            buttonDocGia.Image = (Image)resources.GetObject("buttonDocGia.Image");
+            buttonDocGia.ImageAlign = ContentAlignment.MiddleLeft;
+            buttonDocGia.Location = new Point(36, 250);
+            buttonDocGia.Name = "buttonDocGia";
+            buttonDocGia.Size = new Size(112, 32);
+            buttonDocGia.TabIndex = 8;
+            buttonDocGia.Text = "Độc giả";
+            buttonDocGia.UseVisualStyleBackColor = true;
             // 
-            // button8
+            // buttonTheLoai
             // 
-            button8.FlatAppearance.BorderSize = 0;
-            button8.FlatStyle = FlatStyle.Flat;
-            button8.Font = new Font("Calibri", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            button8.ForeColor = SystemColors.ButtonHighlight;
-            button8.Image = (Image)resources.GetObject("button8.Image");
-            button8.ImageAlign = ContentAlignment.MiddleLeft;
-            button8.Location = new Point(36, 133);
-            button8.Name = "button8";
-            button8.Size = new Size(125, 32);
-            button8.TabIndex = 7;
-            button8.Text = "Thể loại";
-            button8.UseVisualStyleBackColor = true;
+            buttonTheLoai.FlatAppearance.BorderSize = 0;
+            buttonTheLoai.FlatStyle = FlatStyle.Flat;
+            buttonTheLoai.Font = new Font("Calibri", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            buttonTheLoai.ForeColor = SystemColors.ButtonHighlight;
+            buttonTheLoai.Image = (Image)resources.GetObject("buttonTheLoai.Image");
+            buttonTheLoai.ImageAlign = ContentAlignment.MiddleLeft;
+            buttonTheLoai.Location = new Point(36, 133);
+            buttonTheLoai.Name = "buttonTheLoai";
+            buttonTheLoai.Size = new Size(125, 32);
+            buttonTheLoai.TabIndex = 7;
+            buttonTheLoai.Text = "Thể loại";
+            buttonTheLoai.UseVisualStyleBackColor = true;
+            buttonTheLoai.Click += buttonTheLoai_Click;
             // 
-            // button7
+            // buttonTacGia
             // 
-            button7.FlatAppearance.BorderSize = 0;
-            button7.FlatStyle = FlatStyle.Flat;
-            button7.Font = new Font("Calibri", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            button7.ForeColor = SystemColors.ButtonHighlight;
-            button7.Image = (Image)resources.GetObject("button7.Image");
-            button7.ImageAlign = ContentAlignment.MiddleLeft;
-            button7.Location = new Point(36, 160);
-            button7.Name = "button7";
-            button7.Size = new Size(125, 32);
-            button7.TabIndex = 6;
-            button7.Text = "Tác giả";
-            button7.UseVisualStyleBackColor = true;
+            buttonTacGia.FlatAppearance.BorderSize = 0;
+            buttonTacGia.FlatStyle = FlatStyle.Flat;
+            buttonTacGia.Font = new Font("Calibri", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            buttonTacGia.ForeColor = SystemColors.ButtonHighlight;
+            buttonTacGia.Image = (Image)resources.GetObject("buttonTacGia.Image");
+            buttonTacGia.ImageAlign = ContentAlignment.MiddleLeft;
+            buttonTacGia.Location = new Point(36, 160);
+            buttonTacGia.Name = "buttonTacGia";
+            buttonTacGia.Size = new Size(125, 32);
+            buttonTacGia.TabIndex = 6;
+            buttonTacGia.Text = "Tác giả";
+            buttonTacGia.UseVisualStyleBackColor = true;
             // 
-            // button6
+            // buttonNhaXuatBan
             // 
-            button6.FlatAppearance.BorderSize = 0;
-            button6.FlatStyle = FlatStyle.Flat;
-            button6.Font = new Font("Calibri", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            button6.ForeColor = SystemColors.ButtonHighlight;
-            button6.Image = (Image)resources.GetObject("button6.Image");
-            button6.ImageAlign = ContentAlignment.MiddleLeft;
-            button6.Location = new Point(36, 189);
-            button6.Name = "button6";
-            button6.Size = new Size(158, 32);
-            button6.TabIndex = 5;
-            button6.Text = "Nhà xuất bản";
-            button6.UseVisualStyleBackColor = true;
+            buttonNhaXuatBan.FlatAppearance.BorderSize = 0;
+            buttonNhaXuatBan.FlatStyle = FlatStyle.Flat;
+            buttonNhaXuatBan.Font = new Font("Calibri", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            buttonNhaXuatBan.ForeColor = SystemColors.ButtonHighlight;
+            buttonNhaXuatBan.Image = (Image)resources.GetObject("buttonNhaXuatBan.Image");
+            buttonNhaXuatBan.ImageAlign = ContentAlignment.MiddleLeft;
+            buttonNhaXuatBan.Location = new Point(36, 189);
+            buttonNhaXuatBan.Name = "buttonNhaXuatBan";
+            buttonNhaXuatBan.Size = new Size(158, 32);
+            buttonNhaXuatBan.TabIndex = 5;
+            buttonNhaXuatBan.Text = "Nhà xuất bản";
+            buttonNhaXuatBan.UseVisualStyleBackColor = true;
             // 
-            // button5
+            // buttonSach
             // 
-            button5.FlatAppearance.BorderSize = 0;
-            button5.FlatStyle = FlatStyle.Flat;
-            button5.Font = new Font("Calibri", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            button5.ForeColor = SystemColors.ButtonHighlight;
-            button5.Image = (Image)resources.GetObject("button5.Image");
-            button5.ImageAlign = ContentAlignment.MiddleLeft;
-            button5.Location = new Point(36, 104);
-            button5.Name = "button5";
-            button5.Size = new Size(112, 32);
-            button5.TabIndex = 4;
-            button5.Text = "Sách";
-            button5.UseVisualStyleBackColor = true;
+            buttonSach.FlatAppearance.BorderSize = 0;
+            buttonSach.FlatStyle = FlatStyle.Flat;
+            buttonSach.Font = new Font("Calibri", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            buttonSach.ForeColor = SystemColors.ButtonHighlight;
+            buttonSach.Image = (Image)resources.GetObject("buttonSach.Image");
+            buttonSach.ImageAlign = ContentAlignment.MiddleLeft;
+            buttonSach.Location = new Point(36, 104);
+            buttonSach.Name = "buttonSach";
+            buttonSach.Size = new Size(112, 32);
+            buttonSach.TabIndex = 4;
+            buttonSach.Text = "Sách";
+            buttonSach.UseVisualStyleBackColor = true;
+            buttonSach.Click += buttonSach_Click;
             // 
             // button4
             // 
@@ -277,20 +279,21 @@
             button2.Text = "Đăng xuất";
             button2.UseVisualStyleBackColor = true;
             // 
-            // button1
+            // buttonCuaSoLamViec
             // 
-            button1.FlatAppearance.BorderSize = 0;
-            button1.FlatStyle = FlatStyle.Flat;
-            button1.Font = new Font("Calibri", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            button1.ForeColor = SystemColors.ButtonHighlight;
-            button1.Image = (Image)resources.GetObject("button1.Image");
-            button1.ImageAlign = ContentAlignment.MiddleLeft;
-            button1.Location = new Point(17, 17);
-            button1.Name = "button1";
-            button1.Size = new Size(189, 43);
-            button1.TabIndex = 0;
-            button1.Text = "Cửa sổ làm việc";
-            button1.UseVisualStyleBackColor = true;
+            buttonCuaSoLamViec.FlatAppearance.BorderSize = 0;
+            buttonCuaSoLamViec.FlatStyle = FlatStyle.Flat;
+            buttonCuaSoLamViec.Font = new Font("Calibri", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            buttonCuaSoLamViec.ForeColor = SystemColors.ButtonHighlight;
+            buttonCuaSoLamViec.Image = (Image)resources.GetObject("buttonCuaSoLamViec.Image");
+            buttonCuaSoLamViec.ImageAlign = ContentAlignment.MiddleLeft;
+            buttonCuaSoLamViec.Location = new Point(17, 17);
+            buttonCuaSoLamViec.Name = "buttonCuaSoLamViec";
+            buttonCuaSoLamViec.Size = new Size(189, 43);
+            buttonCuaSoLamViec.TabIndex = 0;
+            buttonCuaSoLamViec.Text = "Cửa sổ làm việc";
+            buttonCuaSoLamViec.UseVisualStyleBackColor = true;
+            buttonCuaSoLamViec.Click += buttonCuaSoLamViec_Click;
             // 
             // panel2
             // 
@@ -327,7 +330,7 @@
             label2.AutoSize = true;
             label2.Font = new Font("Calibri", 12F, FontStyle.Regular, GraphicsUnit.Point);
             label2.ForeColor = SystemColors.ActiveCaptionText;
-            label2.Location = new Point(46, 16);
+            label2.Location = new Point(46, 17);
             label2.Name = "label2";
             label2.Size = new Size(50, 19);
             label2.TabIndex = 1;
@@ -345,9 +348,9 @@
             // panelMain
             // 
             panelMain.BackColor = SystemColors.Window;
-            panelMain.Location = new Point(268, 71);
+            panelMain.Location = new Point(279, 71);
             panelMain.Name = "panelMain";
-            panelMain.Size = new Size(952, 692);
+            panelMain.Size = new Size(1223, 680);
             panelMain.TabIndex = 1;
             // 
             // panel5
@@ -362,54 +365,27 @@
             panel5.Controls.Add(panel3);
             panel5.Location = new Point(260, 3);
             panel5.Name = "panel5";
-            panel5.Size = new Size(971, 52);
+            panel5.Size = new Size(1252, 52);
             panel5.TabIndex = 2;
             // 
-            // panel3
+            // button18
             // 
-            panel3.BackColor = Color.WhiteSmoke;
-            panel3.Controls.Add(pictureBox2);
-            panel3.Controls.Add(label2);
-            panel3.Location = new Point(828, 3);
-            panel3.Name = "panel3";
-            panel3.Size = new Size(119, 49);
-            panel3.TabIndex = 2;
+            button18.BackColor = SystemColors.Window;
+            button18.FlatStyle = FlatStyle.Flat;
+            button18.Image = (Image)resources.GetObject("button18.Image");
+            button18.Location = new Point(235, 15);
+            button18.Name = "button18";
+            button18.Size = new Size(24, 23);
+            button18.TabIndex = 9;
+            button18.UseVisualStyleBackColor = false;
             // 
-            // button11
+            // textBox1
             // 
-            button11.BackColor = SystemColors.Window;
-            button11.FlatAppearance.BorderSize = 0;
-            button11.FlatStyle = FlatStyle.Flat;
-            button11.Image = (Image)resources.GetObject("button11.Image");
-            button11.Location = new Point(776, 14);
-            button11.Name = "button11";
-            button11.Size = new Size(36, 23);
-            button11.TabIndex = 3;
-            button11.UseVisualStyleBackColor = false;
-            // 
-            // button16
-            // 
-            button16.BackColor = SystemColors.Window;
-            button16.FlatAppearance.BorderSize = 0;
-            button16.FlatStyle = FlatStyle.Flat;
-            button16.Image = (Image)resources.GetObject("button16.Image");
-            button16.Location = new Point(692, 13);
-            button16.Name = "button16";
-            button16.Size = new Size(36, 23);
-            button16.TabIndex = 5;
-            button16.UseVisualStyleBackColor = false;
-            // 
-            // button17
-            // 
-            button17.BackColor = SystemColors.Window;
-            button17.FlatAppearance.BorderSize = 0;
-            button17.FlatStyle = FlatStyle.Flat;
-            button17.Image = (Image)resources.GetObject("button17.Image");
-            button17.Location = new Point(734, 15);
-            button17.Name = "button17";
-            button17.Size = new Size(36, 23);
-            button17.TabIndex = 6;
-            button17.UseVisualStyleBackColor = false;
+            textBox1.BackColor = SystemColors.ControlLight;
+            textBox1.Location = new Point(50, 15);
+            textBox1.Name = "textBox1";
+            textBox1.Size = new Size(209, 23);
+            textBox1.TabIndex = 8;
             // 
             // button13
             // 
@@ -423,30 +399,58 @@
             button13.TabIndex = 7;
             button13.UseVisualStyleBackColor = false;
             // 
-            // textBox1
+            // button17
             // 
-            textBox1.BackColor = SystemColors.ControlLight;
-            textBox1.Location = new Point(50, 15);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(209, 23);
-            textBox1.TabIndex = 8;
+            button17.BackColor = SystemColors.Window;
+            button17.FlatAppearance.BorderSize = 0;
+            button17.FlatStyle = FlatStyle.Flat;
+            button17.Image = (Image)resources.GetObject("button17.Image");
+            button17.Location = new Point(1029, 15);
+            button17.Name = "button17";
+            button17.Size = new Size(36, 23);
+            button17.TabIndex = 6;
+            button17.UseVisualStyleBackColor = false;
             // 
-            // button18
+            // button16
             // 
-            button18.BackColor = SystemColors.Window;
-            button18.FlatStyle = FlatStyle.Flat;
-            button18.Image = (Image)resources.GetObject("button18.Image");
-            button18.Location = new Point(235, 15);
-            button18.Name = "button18";
-            button18.Size = new Size(24, 23);
-            button18.TabIndex = 9;
-            button18.UseVisualStyleBackColor = false;
+            button16.BackColor = SystemColors.Window;
+            button16.FlatAppearance.BorderSize = 0;
+            button16.FlatStyle = FlatStyle.Flat;
+            button16.Image = (Image)resources.GetObject("button16.Image");
+            button16.Location = new Point(987, 13);
+            button16.Name = "button16";
+            button16.Size = new Size(36, 23);
+            button16.TabIndex = 5;
+            button16.UseVisualStyleBackColor = false;
+            // 
+            // button11
+            // 
+            button11.BackColor = SystemColors.Window;
+            button11.FlatAppearance.BorderSize = 0;
+            button11.FlatStyle = FlatStyle.Flat;
+            button11.Image = (Image)resources.GetObject("button11.Image");
+            button11.Location = new Point(1071, 14);
+            button11.Name = "button11";
+            button11.Size = new Size(36, 23);
+            button11.TabIndex = 3;
+            button11.UseVisualStyleBackColor = false;
+            // 
+            // panel3
+            // 
+            panel3.BackColor = Color.WhiteSmoke;
+            panel3.Controls.Add(pictureBox2);
+            panel3.Controls.Add(label2);
+            panel3.Location = new Point(1123, 3);
+            panel3.Name = "panel3";
+            panel3.Size = new Size(119, 49);
+            panel3.TabIndex = 2;
             // 
             // Main
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1232, 763);
+            BackColor = Color.LightGray;
+            ClientSize = new Size(1513, 763);
             Controls.Add(panel5);
             Controls.Add(panelMain);
             Controls.Add(panel1);
@@ -475,18 +479,18 @@
         private Label label2;
         private PictureBox pictureBox2;
         private Panel panel4;
-        private Button button1;
+        private Button buttonCuaSoLamViec;
         private Button button4;
         private Button button2;
-        private Button button8;
-        private Button button7;
-        private Button button6;
-        private Button button5;
+        private Button buttonTheLoai;
+        private Button buttonTacGia;
+        private Button buttonNhaXuatBan;
+        private Button buttonSach;
         private Button button14;
         private Button button15;
-        private Button button9;
-        private Button button10;
-        private Button button12;
+        private Button buttonMuonSach;
+        private Button buttonLSMuon_Tra;
+        private Button buttonDocGia;
         private Button button3;
         private Panel panelMain;
         private Panel panel5;

@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34616.47
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QLTV", "QLTV\QLTV.csproj", "{14900369-A9AB-4C91-B0EB-1C487B616097}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QLTV", "QLTV\QLTV.csproj", "{21758C2F-69E8-4FBC-9DF9-98BBB3A7FDFE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{14900369-A9AB-4C91-B0EB-1C487B616097}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{14900369-A9AB-4C91-B0EB-1C487B616097}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{14900369-A9AB-4C91-B0EB-1C487B616097}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{14900369-A9AB-4C91-B0EB-1C487B616097}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21758C2F-69E8-4FBC-9DF9-98BBB3A7FDFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21758C2F-69E8-4FBC-9DF9-98BBB3A7FDFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21758C2F-69E8-4FBC-9DF9-98BBB3A7FDFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21758C2F-69E8-4FBC-9DF9-98BBB3A7FDFE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {4EC11636-3591-4B49-A34B-FE35E43E7933}
+		SolutionGuid = {B32E53FF-FD40-419D-9F24-7DA50C14A85A}
 	EndGlobalSection
 EndGlobal

@@ -4,5 +4,35 @@
     <Compile Update="Main.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Module\BaoCao\TinhHinhPhucVu\index.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Module\Dashboard\index.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Module\MuonTra\DocGia\index.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Module\MuonTra\LichSu\index.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Module\MuonTra\MuonSach\index.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Module\TaiNguyen\NhaXuatBan\index.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Module\TaiNguyen\Sach\create.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Module\TaiNguyen\Sach\index.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Module\TaiNguyen\TacGia\index.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Module\TaiNguyen\TheLoai\index.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
   </ItemGroup>
 </Project>

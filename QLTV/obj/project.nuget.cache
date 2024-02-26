@@ -1,11 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "StZt4A5jhzga/B7efb3+jZmH4ondbl5SHM1dGySkoGCYWXU17AfEActhOQDMOmVzxDMZjp0oWYcG4Eqy0hQJhg==",
+  "dgSpecHash": "9uZE3hjmPIOMTsdt5bemOAn37PujTwfQZwbuU0etpW9ojWX9uD1UeboSHlR6VK4PsM3gk886IhRdaz4MrbS50A==",
   "success": true,
   "projectFilePath": "F:\\Dai_Hoc\\Ky_8\\LTWin\\Project\\QLTV\\QLTV\\QLTV.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\hoatd\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
-    "C:\\Users\\hoatd\\.nuget\\packages\\materialskin.2\\2.3.1\\materialskin.2.2.3.1.nupkg.sha512",
     "C:\\Users\\hoatd\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\hoatd\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.7\\microsoft.data.sqlclient.2.1.7.nupkg.sha512",
     "C:\\Users\\hoatd\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\2.1.1\\microsoft.data.sqlclient.sni.runtime.2.1.1.nupkg.sha512",

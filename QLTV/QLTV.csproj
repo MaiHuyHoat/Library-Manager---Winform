@@ -9,21 +9,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Data\Model\" />
-    <Folder Include="Module\BaoCao\TinhHinhPhucVu\" />
-    <Folder Include="Module\Dashboard\" />
-    <Folder Include="Module\MuonTra\DocGia\" />
-    <Folder Include="Module\MuonTra\MuonSach\" />
-    <Folder Include="Module\MuonTra\LichSu\" />
-    <Folder Include="Module\TaiNguyen\Sach\" />
-    <Folder Include="Module\TaiNguyen\NhaXuatBan\" />
-    <Folder Include="Module\TaiNguyen\TacGia\" />
-    <Folder Include="Module\TaiNguyen\TheLoai\" />
-    <Folder Include="Resouce\Icon\" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <PackageReference Include="MaterialSkin.2" Version="2.3.1" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.27" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.27" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.27">
