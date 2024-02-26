@@ -3,24 +3,48 @@
   "WorkspaceRootPath": "F:\\Dai_Hoc\\Ky_8\\LTWin\\Project\\QLTV\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{21758C2F-69E8-4FBC-9DF9-98BBB3A7FDFE}|QLTV\\QLTV.csproj|f:\\dai_hoc\\ky_8\\ltwin\\project\\qltv\\qltv\\module\\tainguyen\\sach\\index.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{21758C2F-69E8-4FBC-9DF9-98BBB3A7FDFE}|QLTV\\QLTV.csproj|solutionrelative:qltv\\module\\tainguyen\\sach\\index.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{21758C2F-69E8-4FBC-9DF9-98BBB3A7FDFE}|QLTV\\QLTV.csproj|F:\\Dai_Hoc\\Ky_8\\LTWin\\Project\\QLTV\\qltv\\module\\tainguyen\\sach\\add.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21758C2F-69E8-4FBC-9DF9-98BBB3A7FDFE}|QLTV\\QLTV.csproj|solutionrelative:qltv\\module\\tainguyen\\sach\\add.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21758C2F-69E8-4FBC-9DF9-98BBB3A7FDFE}|QLTV\\QLTV.csproj|F:\\Dai_Hoc\\Ky_8\\LTWin\\Project\\QLTV\\qltv\\module\\tainguyen\\sach\\edit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21758C2F-69E8-4FBC-9DF9-98BBB3A7FDFE}|QLTV\\QLTV.csproj|solutionrelative:qltv\\module\\tainguyen\\sach\\edit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21758C2F-69E8-4FBC-9DF9-98BBB3A7FDFE}|QLTV\\QLTV.csproj|F:\\Dai_Hoc\\Ky_8\\LTWin\\Project\\QLTV\\qltv\\module\\tainguyen\\sach\\add.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21758C2F-69E8-4FBC-9DF9-98BBB3A7FDFE}|QLTV\\QLTV.csproj|solutionrelative:qltv\\module\\tainguyen\\sach\\add.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21758C2F-69E8-4FBC-9DF9-98BBB3A7FDFE}|QLTV\\QLTV.csproj|F:\\Dai_Hoc\\Ky_8\\LTWin\\Project\\QLTV\\qltv\\module\\tainguyen\\sach\\add.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{21758C2F-69E8-4FBC-9DF9-98BBB3A7FDFE}|QLTV\\QLTV.csproj|solutionrelative:qltv\\module\\tainguyen\\sach\\add.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21758C2F-69E8-4FBC-9DF9-98BBB3A7FDFE}|QLTV\\QLTV.csproj|F:\\Dai_Hoc\\Ky_8\\LTWin\\Project\\QLTV\\qltv\\module\\tainguyen\\sach\\edit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{21758C2F-69E8-4FBC-9DF9-98BBB3A7FDFE}|QLTV\\QLTV.csproj|solutionrelative:qltv\\module\\tainguyen\\sach\\edit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{21758C2F-69E8-4FBC-9DF9-98BBB3A7FDFE}|QLTV\\QLTV.csproj|F:\\Dai_Hoc\\Ky_8\\LTWin\\Project\\QLTV\\qltv\\module\\tainguyen\\sach\\index.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{21758C2F-69E8-4FBC-9DF9-98BBB3A7FDFE}|QLTV\\QLTV.csproj|solutionrelative:qltv\\module\\tainguyen\\sach\\index.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{21758C2F-69E8-4FBC-9DF9-98BBB3A7FDFE}|QLTV\\QLTV.csproj|F:\\Dai_Hoc\\Ky_8\\LTWin\\Project\\QLTV\\qltv\\data\\entity\\sachshow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{21758C2F-69E8-4FBC-9DF9-98BBB3A7FDFE}|QLTV\\QLTV.csproj|solutionrelative:qltv\\data\\entity\\sachshow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{21758C2F-69E8-4FBC-9DF9-98BBB3A7FDFE}|QLTV\\QLTV.csproj|f:\\dai_hoc\\ky_8\\ltwin\\project\\qltv\\qltv\\module\\tainguyen\\sach\\detail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21758C2F-69E8-4FBC-9DF9-98BBB3A7FDFE}|QLTV\\QLTV.csproj|solutionrelative:qltv\\module\\tainguyen\\sach\\detail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{21758C2F-69E8-4FBC-9DF9-98BBB3A7FDFE}|QLTV\\QLTV.csproj|F:\\Dai_Hoc\\Ky_8\\LTWin\\Project\\QLTV\\qltv\\data\\model\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{21758C2F-69E8-4FBC-9DF9-98BBB3A7FDFE}|QLTV\\QLTV.csproj|solutionrelative:qltv\\data\\model\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{21758C2F-69E8-4FBC-9DF9-98BBB3A7FDFE}|QLTV\\QLTV.csproj|F:\\Dai_Hoc\\Ky_8\\LTWin\\Project\\QLTV\\qltv\\module\\tainguyen\\sach\\index.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{21758C2F-69E8-4FBC-9DF9-98BBB3A7FDFE}|QLTV\\QLTV.csproj|solutionrelative:qltv\\module\\tainguyen\\sach\\index.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{21758C2F-69E8-4FBC-9DF9-98BBB3A7FDFE}|QLTV\\QLTV.csproj|F:\\Dai_Hoc\\Ky_8\\LTWin\\Project\\QLTV\\qltv\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{21758C2F-69E8-4FBC-9DF9-98BBB3A7FDFE}|QLTV\\QLTV.csproj|solutionrelative:qltv\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{21758C2F-69E8-4FBC-9DF9-98BBB3A7FDFE}|QLTV\\QLTV.csproj|F:\\Dai_Hoc\\Ky_8\\LTWin\\Project\\QLTV\\qltv\\module\\tainguyen\\sach\\index.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21758C2F-69E8-4FBC-9DF9-98BBB3A7FDFE}|QLTV\\QLTV.csproj|solutionrelative:qltv\\module\\tainguyen\\sach\\index.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21758C2F-69E8-4FBC-9DF9-98BBB3A7FDFE}|QLTV\\QLTV.csproj|F:\\Dai_Hoc\\Ky_8\\LTWin\\Project\\QLTV\\qltv\\module\\tainguyen\\sach\\detail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{21758C2F-69E8-4FBC-9DF9-98BBB3A7FDFE}|QLTV\\QLTV.csproj|solutionrelative:qltv\\module\\tainguyen\\sach\\detail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21758C2F-69E8-4FBC-9DF9-98BBB3A7FDFE}|QLTV\\QLTV.csproj|F:\\Dai_Hoc\\Ky_8\\LTWin\\Project\\QLTV\\qltv\\data\\model\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21758C2F-69E8-4FBC-9DF9-98BBB3A7FDFE}|QLTV\\QLTV.csproj|solutionrelative:qltv\\data\\model\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,68 +54,148 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Main.cs",
-              "DocumentMoniker": "F:\\Dai_Hoc\\Ky_8\\LTWin\\Project\\QLTV\\QLTV\\Main.cs",
-              "RelativeDocumentMoniker": "QLTV\\Main.cs",
-              "ToolTip": "F:\\Dai_Hoc\\Ky_8\\LTWin\\Project\\QLTV\\QLTV\\Main.cs",
-              "RelativeToolTip": "QLTV\\Main.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABwAAAAEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-25T04:45:22.005Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "DBContext.cs",
-              "DocumentMoniker": "F:\\Dai_Hoc\\Ky_8\\LTWin\\Project\\QLTV\\QLTV\\Data\\Model\\DBContext.cs",
-              "RelativeDocumentMoniker": "QLTV\\Data\\Model\\DBContext.cs",
-              "ToolTip": "F:\\Dai_Hoc\\Ky_8\\LTWin\\Project\\QLTV\\QLTV\\Data\\Model\\DBContext.cs",
-              "RelativeToolTip": "QLTV\\Data\\Model\\DBContext.cs",
-              "ViewState": "AQIAABkAAAAAAAAAAAAYwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-25T04:37:44.762Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "index.cs",
-              "DocumentMoniker": "F:\\Dai_Hoc\\Ky_8\\LTWin\\Project\\QLTV\\QLTV\\Module\\TaiNguyen\\Sach\\index.cs",
-              "RelativeDocumentMoniker": "QLTV\\Module\\TaiNguyen\\Sach\\index.cs",
-              "ToolTip": "F:\\Dai_Hoc\\Ky_8\\LTWin\\Project\\QLTV\\QLTV\\Module\\TaiNguyen\\Sach\\index.cs*",
-              "RelativeToolTip": "QLTV\\Module\\TaiNguyen\\Sach\\index.cs*",
-              "ViewState": "AQIAACoAAAAAAAAAAAAIwDUAAAAMAAAA",
+              "Title": "edit.cs",
+              "DocumentMoniker": "F:\\Dai_Hoc\\Ky_8\\LTWin\\Project\\QLTV\\QLTV\\Module\\TaiNguyen\\Sach\\edit.cs",
+              "RelativeDocumentMoniker": "QLTV\\Module\\TaiNguyen\\Sach\\edit.cs",
+              "ToolTip": "F:\\Dai_Hoc\\Ky_8\\LTWin\\Project\\QLTV\\QLTV\\Module\\TaiNguyen\\Sach\\edit.cs",
+              "RelativeToolTip": "QLTV\\Module\\TaiNguyen\\Sach\\edit.cs",
+              "ViewState": "AQIAALoAAAAAAAAAAAAUwL4AAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-25T04:32:09.488Z",
+              "WhenOpened": "2024-02-26T13:31:27.909Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "SachShow.cs",
-              "DocumentMoniker": "F:\\Dai_Hoc\\Ky_8\\LTWin\\Project\\QLTV\\QLTV\\Data\\Entity\\SachShow.cs",
-              "RelativeDocumentMoniker": "QLTV\\Data\\Entity\\SachShow.cs",
-              "ToolTip": "F:\\Dai_Hoc\\Ky_8\\LTWin\\Project\\QLTV\\QLTV\\Data\\Entity\\SachShow.cs",
-              "RelativeToolTip": "QLTV\\Data\\Entity\\SachShow.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAZAAAA",
+              "Title": "add.Designer.cs",
+              "DocumentMoniker": "F:\\Dai_Hoc\\Ky_8\\LTWin\\Project\\QLTV\\QLTV\\Module\\TaiNguyen\\Sach\\add.Designer.cs",
+              "RelativeDocumentMoniker": "QLTV\\Module\\TaiNguyen\\Sach\\add.Designer.cs",
+              "ToolTip": "F:\\Dai_Hoc\\Ky_8\\LTWin\\Project\\QLTV\\QLTV\\Module\\TaiNguyen\\Sach\\add.Designer.cs",
+              "RelativeToolTip": "QLTV\\Module\\TaiNguyen\\Sach\\add.Designer.cs",
+              "ViewState": "AQIAAA4BAAAAAAAAAAASwCIBAAA3AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-25T04:24:54.709Z"
+              "WhenOpened": "2024-02-26T13:23:13.229Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "edit.cs [Design]",
+              "DocumentMoniker": "F:\\Dai_Hoc\\Ky_8\\LTWin\\Project\\QLTV\\QLTV\\Module\\TaiNguyen\\Sach\\edit.cs",
+              "RelativeDocumentMoniker": "QLTV\\Module\\TaiNguyen\\Sach\\edit.cs",
+              "ToolTip": "F:\\Dai_Hoc\\Ky_8\\LTWin\\Project\\QLTV\\QLTV\\Module\\TaiNguyen\\Sach\\edit.cs [Design]",
+              "RelativeToolTip": "QLTV\\Module\\TaiNguyen\\Sach\\edit.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-26T13:19:21.003Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "index.Designer.cs",
+              "DocumentMoniker": "F:\\Dai_Hoc\\Ky_8\\LTWin\\Project\\QLTV\\QLTV\\Module\\TaiNguyen\\Sach\\index.Designer.cs",
+              "RelativeDocumentMoniker": "QLTV\\Module\\TaiNguyen\\Sach\\index.Designer.cs",
+              "ToolTip": "F:\\Dai_Hoc\\Ky_8\\LTWin\\Project\\QLTV\\QLTV\\Module\\TaiNguyen\\Sach\\index.Designer.cs",
+              "RelativeToolTip": "QLTV\\Module\\TaiNguyen\\Sach\\index.Designer.cs",
+              "ViewState": "AQIAALsAAAAAAAAAAAASwNAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-26T13:13:22.678Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Book.cs",
+              "DocumentMoniker": "F:\\Dai_Hoc\\Ky_8\\LTWin\\Project\\QLTV\\QLTV\\Data\\Model\\Book.cs",
+              "RelativeDocumentMoniker": "QLTV\\Data\\Model\\Book.cs",
+              "ToolTip": "F:\\Dai_Hoc\\Ky_8\\LTWin\\Project\\QLTV\\QLTV\\Data\\Model\\Book.cs",
+              "RelativeToolTip": "QLTV\\Data\\Model\\Book.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-26T13:00:06.156Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "detail.cs [Design]",
+              "DocumentMoniker": "F:\\Dai_Hoc\\Ky_8\\LTWin\\Project\\QLTV\\QLTV\\Module\\TaiNguyen\\Sach\\detail.cs",
+              "RelativeDocumentMoniker": "QLTV\\Module\\TaiNguyen\\Sach\\detail.cs",
+              "ToolTip": "F:\\Dai_Hoc\\Ky_8\\LTWin\\Project\\QLTV\\QLTV\\Module\\TaiNguyen\\Sach\\detail.cs [Design]",
+              "RelativeToolTip": "QLTV\\Module\\TaiNguyen\\Sach\\detail.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-26T12:38:04.031Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "index.cs",
+              "DocumentMoniker": "F:\\Dai_Hoc\\Ky_8\\LTWin\\Project\\QLTV\\QLTV\\Module\\TaiNguyen\\Sach\\index.cs",
+              "RelativeDocumentMoniker": "QLTV\\Module\\TaiNguyen\\Sach\\index.cs",
+              "ToolTip": "F:\\Dai_Hoc\\Ky_8\\LTWin\\Project\\QLTV\\QLTV\\Module\\TaiNguyen\\Sach\\index.cs",
+              "RelativeToolTip": "QLTV\\Module\\TaiNguyen\\Sach\\index.cs",
+              "ViewState": "AQIAAMIAAAAAAAAAAAAgwNUAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-26T10:44:03.129Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "index.cs [Design]",
+              "DocumentMoniker": "F:\\Dai_Hoc\\Ky_8\\LTWin\\Project\\QLTV\\QLTV\\Module\\TaiNguyen\\Sach\\index.cs",
+              "RelativeDocumentMoniker": "QLTV\\Module\\TaiNguyen\\Sach\\index.cs",
+              "ToolTip": "F:\\Dai_Hoc\\Ky_8\\LTWin\\Project\\QLTV\\QLTV\\Module\\TaiNguyen\\Sach\\index.cs [Design]",
+              "RelativeToolTip": "QLTV\\Module\\TaiNguyen\\Sach\\index.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-26T10:44:00.262Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "add.cs [Design]",
+              "DocumentMoniker": "F:\\Dai_Hoc\\Ky_8\\LTWin\\Project\\QLTV\\QLTV\\Module\\TaiNguyen\\Sach\\add.cs",
+              "RelativeDocumentMoniker": "QLTV\\Module\\TaiNguyen\\Sach\\add.cs",
+              "ToolTip": "F:\\Dai_Hoc\\Ky_8\\LTWin\\Project\\QLTV\\QLTV\\Module\\TaiNguyen\\Sach\\add.cs [Design]",
+              "RelativeToolTip": "QLTV\\Module\\TaiNguyen\\Sach\\add.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-26T10:39:25.058Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "index.cs [Design]",
-              "DocumentMoniker": "F:\\Dai_Hoc\\Ky_8\\LTWin\\Project\\QLTV\\QLTV\\Module\\TaiNguyen\\Sach\\index.cs",
-              "RelativeDocumentMoniker": "QLTV\\Module\\TaiNguyen\\Sach\\index.cs",
-              "ToolTip": "F:\\Dai_Hoc\\Ky_8\\LTWin\\Project\\QLTV\\QLTV\\Module\\TaiNguyen\\Sach\\index.cs [Design]*",
-              "RelativeToolTip": "QLTV\\Module\\TaiNguyen\\Sach\\index.cs [Design]*",
+              "Title": "add.cs",
+              "DocumentMoniker": "F:\\Dai_Hoc\\Ky_8\\LTWin\\Project\\QLTV\\QLTV\\Module\\TaiNguyen\\Sach\\add.cs",
+              "RelativeDocumentMoniker": "QLTV\\Module\\TaiNguyen\\Sach\\add.cs",
+              "ToolTip": "F:\\Dai_Hoc\\Ky_8\\LTWin\\Project\\QLTV\\QLTV\\Module\\TaiNguyen\\Sach\\add.cs",
+              "RelativeToolTip": "QLTV\\Module\\TaiNguyen\\Sach\\add.cs",
+              "ViewState": "AQIAAI8AAAAAAAAAAAAqwKIAAABBAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-25T03:45:12.314Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-02-26T10:39:27.85Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "detail.cs",
+              "DocumentMoniker": "F:\\Dai_Hoc\\Ky_8\\LTWin\\Project\\QLTV\\QLTV\\Module\\TaiNguyen\\Sach\\detail.cs",
+              "RelativeDocumentMoniker": "QLTV\\Module\\TaiNguyen\\Sach\\detail.cs",
+              "ToolTip": "F:\\Dai_Hoc\\Ky_8\\LTWin\\Project\\QLTV\\QLTV\\Module\\TaiNguyen\\Sach\\detail.cs",
+              "RelativeToolTip": "QLTV\\Module\\TaiNguyen\\Sach\\detail.cs",
+              "ViewState": "AQIAAEMAAAAAAAAAAAAqwEIAAAByAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-26T12:43:12.667Z",
+              "EditorCaption": ""
             }
           ]
         }

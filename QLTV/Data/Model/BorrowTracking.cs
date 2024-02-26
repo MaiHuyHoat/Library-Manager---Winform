@@ -11,7 +11,7 @@ namespace QLTV.Data.Model
         public int? ReturnStatus { get; set; }
         public decimal? FineAmound { get; set; }
         public DateTime UpdatedAt { get; set; }
-        public int Deleted { get; set; }
+        public int Deleted { get; set; } = 0;   
 
         public virtual BorrowRequest? Request { get; set; }
     }
