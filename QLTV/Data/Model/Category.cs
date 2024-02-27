@@ -12,7 +12,7 @@ namespace QLTV.Data.Model
 
         public int Id { get; set; }
         public string Name { get; set; } = null!;
-        public int Deleted { get; set; }
+        public int Deleted { get; set; } = 0;   
 
         public virtual ICollection<Book> Books { get; set; }
     }

@@ -21,7 +21,7 @@ namespace QLTV.Data.Model
         public int Amount { get; set; }
         public int? PublisherId { get; set; }
         public DateTime CreateDay { get; set; }
-        public int Deleted { get; set; }
+        public int Deleted { get; set; } = 0;
 
         public virtual Author? Author { get; set; }
         public virtual Category? Category { get; set; }
