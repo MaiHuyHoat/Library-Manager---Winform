@@ -11,6 +11,7 @@ using System.Windows.Forms;
 
 using module_Sach = QLTV.Module.TaiNguyen.Sach;
 using module_Dashboard = QLTV.Module.Dashboard;
+using module_TheLoai = QLTV.Module.TaiNguyen.TheLoai;
 using System.Xml.Linq;
 
 
@@ -40,7 +41,13 @@ namespace QLTV
         }
         private void buttonTheLoai_Click(object sender, EventArgs e)
         {
-
+            if (!panelMain.Controls.Contains(module_TheLoai.index.Instance))
+            {
+                panelMain.Controls.Add(module_TheLoai.index.Instance);
+                module_TheLoai.index.Instance.Dock = DockStyle.Fill;
+                module_TheLoai.index.Instance.BringToFront();
+            }
+            else module_TheLoai.index.Instance.BringToFront();
         }
 
         private void buttonSach_Click(object sender, EventArgs e)
