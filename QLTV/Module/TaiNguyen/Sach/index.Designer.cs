@@ -40,9 +40,9 @@
             label5 = new Label();
             textBoxTimkiem = new TextBox();
             buttonThem = new Button();
-            button2 = new Button();
-            button3 = new Button();
-            button4 = new Button();
+            buttonChiTiet = new Button();
+            buttonXoa = new Button();
+            buttonEdit = new Button();
             buttonTimKiem = new Button();
             dataGridViewData = new DataGridView();
             ColumnId = new DataGridViewTextBoxColumn();
@@ -161,48 +161,52 @@
             buttonThem.TabIndex = 9;
             buttonThem.Text = "Thêm";
             buttonThem.UseVisualStyleBackColor = false;
+            buttonThem.Click += buttonThem_Click;
             // 
-            // button2
+            // buttonChiTiet
             // 
-            button2.BackColor = Color.FromArgb(192, 64, 0);
-            button2.FlatAppearance.BorderSize = 0;
-            button2.FlatStyle = FlatStyle.Flat;
-            button2.Font = new Font("Segoe UI", 11.25F, FontStyle.Bold, GraphicsUnit.Point);
-            button2.ForeColor = SystemColors.ButtonHighlight;
-            button2.Location = new Point(1101, 221);
-            button2.Name = "button2";
-            button2.Size = new Size(99, 39);
-            button2.TabIndex = 11;
-            button2.Text = "Chi tiết";
-            button2.UseVisualStyleBackColor = false;
+            buttonChiTiet.BackColor = Color.FromArgb(192, 64, 0);
+            buttonChiTiet.FlatAppearance.BorderSize = 0;
+            buttonChiTiet.FlatStyle = FlatStyle.Flat;
+            buttonChiTiet.Font = new Font("Segoe UI", 11.25F, FontStyle.Bold, GraphicsUnit.Point);
+            buttonChiTiet.ForeColor = SystemColors.ButtonHighlight;
+            buttonChiTiet.Location = new Point(1101, 221);
+            buttonChiTiet.Name = "buttonChiTiet";
+            buttonChiTiet.Size = new Size(99, 39);
+            buttonChiTiet.TabIndex = 11;
+            buttonChiTiet.Text = "Chi tiết";
+            buttonChiTiet.UseVisualStyleBackColor = false;
+            buttonChiTiet.Click += buttonChiTiet_Click;
             // 
-            // button3
+            // buttonXoa
             // 
-            button3.BackColor = Color.Red;
-            button3.FlatAppearance.BorderSize = 0;
-            button3.FlatStyle = FlatStyle.Flat;
-            button3.Font = new Font("Segoe UI", 11.25F, FontStyle.Bold, GraphicsUnit.Point);
-            button3.ForeColor = SystemColors.ButtonHighlight;
-            button3.Location = new Point(1101, 433);
-            button3.Name = "button3";
-            button3.Size = new Size(99, 39);
-            button3.TabIndex = 12;
-            button3.Text = "Xoá";
-            button3.UseVisualStyleBackColor = false;
+            buttonXoa.BackColor = Color.Red;
+            buttonXoa.FlatAppearance.BorderSize = 0;
+            buttonXoa.FlatStyle = FlatStyle.Flat;
+            buttonXoa.Font = new Font("Segoe UI", 11.25F, FontStyle.Bold, GraphicsUnit.Point);
+            buttonXoa.ForeColor = SystemColors.ButtonHighlight;
+            buttonXoa.Location = new Point(1101, 433);
+            buttonXoa.Name = "buttonXoa";
+            buttonXoa.Size = new Size(99, 39);
+            buttonXoa.TabIndex = 12;
+            buttonXoa.Text = "Xoá";
+            buttonXoa.UseVisualStyleBackColor = false;
+            buttonXoa.Click += buttonXoa_Click;
             // 
-            // button4
+            // buttonEdit
             // 
-            button4.BackColor = Color.FromArgb(255, 128, 0);
-            button4.FlatAppearance.BorderSize = 0;
-            button4.FlatStyle = FlatStyle.Flat;
-            button4.Font = new Font("Segoe UI", 11.25F, FontStyle.Bold, GraphicsUnit.Point);
-            button4.ForeColor = SystemColors.ButtonHighlight;
-            button4.Location = new Point(1101, 352);
-            button4.Name = "button4";
-            button4.Size = new Size(99, 39);
-            button4.TabIndex = 13;
-            button4.Text = "Sửa";
-            button4.UseVisualStyleBackColor = false;
+            buttonEdit.BackColor = Color.FromArgb(255, 128, 0);
+            buttonEdit.FlatAppearance.BorderSize = 0;
+            buttonEdit.FlatStyle = FlatStyle.Flat;
+            buttonEdit.Font = new Font("Segoe UI", 11.25F, FontStyle.Bold, GraphicsUnit.Point);
+            buttonEdit.ForeColor = SystemColors.ButtonHighlight;
+            buttonEdit.Location = new Point(1101, 352);
+            buttonEdit.Name = "buttonEdit";
+            buttonEdit.Size = new Size(99, 39);
+            buttonEdit.TabIndex = 13;
+            buttonEdit.Text = "Sửa";
+            buttonEdit.UseVisualStyleBackColor = false;
+            buttonEdit.Click += buttonEdit_Click;
             // 
             // buttonTimKiem
             // 
@@ -292,9 +296,9 @@
             AutoScaleMode = AutoScaleMode.Font;
             Controls.Add(dataGridViewData);
             Controls.Add(buttonTimKiem);
-            Controls.Add(button4);
-            Controls.Add(button3);
-            Controls.Add(button2);
+            Controls.Add(buttonEdit);
+            Controls.Add(buttonXoa);
+            Controls.Add(buttonChiTiet);
             Controls.Add(buttonThem);
             Controls.Add(textBoxTimkiem);
             Controls.Add(label5);
@@ -327,9 +331,9 @@
         private Label label5;
         private TextBox textBoxTimkiem;
         private Button buttonThem;
-        private Button button2;
-        private Button button3;
-        private Button button4;
+        private Button buttonChiTiet;
+        private Button buttonXoa;
+        private Button buttonEdit;
         private Button buttonTimKiem;
         private DataGridView dataGridViewData;
         private DataGridViewTextBoxColumn ColumnId;

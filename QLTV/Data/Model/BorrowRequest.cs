@@ -16,7 +16,7 @@ namespace QLTV.Data.Model
         public DateTime DueDate { get; set; }
         public int Status { get; set; }
         public DateTime UpdatedAt { get; set; }
-        public int Deleted { get; set; }
+        public int Deleted { get; set; }=0;
 
         public virtual Book? Book { get; set; }
         public virtual Reader? Reader { get; set; }

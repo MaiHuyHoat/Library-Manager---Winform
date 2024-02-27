@@ -95,9 +95,12 @@ F:\Dai_Hoc\Ky_8\LTWin\Project\QLTV\QLTV\obj\Debug\net6.0-windows\QLTV.Module.Muo
 F:\Dai_Hoc\Ky_8\LTWin\Project\QLTV\QLTV\obj\Debug\net6.0-windows\QLTV.Module.MuonTra.LichSu.index.resources
 F:\Dai_Hoc\Ky_8\LTWin\Project\QLTV\QLTV\obj\Debug\net6.0-windows\QLTV.Module.MuonTra.MuonSach.index.resources
 F:\Dai_Hoc\Ky_8\LTWin\Project\QLTV\QLTV\obj\Debug\net6.0-windows\QLTV.Module.TaiNguyen.NhaXuatBan.index.resources
+F:\Dai_Hoc\Ky_8\LTWin\Project\QLTV\QLTV\obj\Debug\net6.0-windows\QLTV.Module.TaiNguyen.Sach.add.resources
+F:\Dai_Hoc\Ky_8\LTWin\Project\QLTV\QLTV\obj\Debug\net6.0-windows\QLTV.Module.TaiNguyen.Sach.detail.resources
 F:\Dai_Hoc\Ky_8\LTWin\Project\QLTV\QLTV\obj\Debug\net6.0-windows\QLTV.Module.TaiNguyen.Sach.index.resources
 F:\Dai_Hoc\Ky_8\LTWin\Project\QLTV\QLTV\obj\Debug\net6.0-windows\QLTV.Module.TaiNguyen.TacGia.index.resources
 F:\Dai_Hoc\Ky_8\LTWin\Project\QLTV\QLTV\obj\Debug\net6.0-windows\QLTV.Module.TaiNguyen.TheLoai.index.resources
+F:\Dai_Hoc\Ky_8\LTWin\Project\QLTV\QLTV\obj\Debug\net6.0-windows\QLTV.Properties.Resources.resources
 F:\Dai_Hoc\Ky_8\LTWin\Project\QLTV\QLTV\obj\Debug\net6.0-windows\QLTV.csproj.GenerateResource.cache
 F:\Dai_Hoc\Ky_8\LTWin\Project\QLTV\QLTV\obj\Debug\net6.0-windows\QLTV.GeneratedMSBuildEditorConfig.editorconfig
 F:\Dai_Hoc\Ky_8\LTWin\Project\QLTV\QLTV\obj\Debug\net6.0-windows\QLTV.AssemblyInfoInputs.cache
@@ -110,6 +113,7 @@ F:\Dai_Hoc\Ky_8\LTWin\Project\QLTV\QLTV\obj\Debug\net6.0-windows\refint\QLTV.dll
 F:\Dai_Hoc\Ky_8\LTWin\Project\QLTV\QLTV\obj\Debug\net6.0-windows\QLTV.pdb
 F:\Dai_Hoc\Ky_8\LTWin\Project\QLTV\QLTV\obj\Debug\net6.0-windows\QLTV.genruntimeconfig.cache
 F:\Dai_Hoc\Ky_8\LTWin\Project\QLTV\QLTV\obj\Debug\net6.0-windows\ref\QLTV.dll
+<<<<<<< HEAD
 F:\Dai_Hoc\Ky_8\LTWin\Project\QLTV\QLTV\obj\Debug\net6.0-windows\QLTV.Properties.Resources.resources
 D:\WinForm\QLTV\bin\Debug\net6.0-windows\QLTV.exe
 D:\WinForm\QLTV\bin\Debug\net6.0-windows\QLTV.deps.json
@@ -173,3 +177,6 @@ D:\WinForm\QLTV\obj\Debug\net6.0-windows\refint\QLTV.dll
 D:\WinForm\QLTV\obj\Debug\net6.0-windows\QLTV.pdb
 D:\WinForm\QLTV\obj\Debug\net6.0-windows\QLTV.genruntimeconfig.cache
 D:\WinForm\QLTV\obj\Debug\net6.0-windows\ref\QLTV.dll
+=======
+F:\Dai_Hoc\Ky_8\LTWin\Project\QLTV\QLTV\obj\Debug\net6.0-windows\QLTV.Module.TaiNguyen.Sach.edit.resources
+>>>>>>> 8ac9c32c436129a3f0b5c10074635bdde4c3fbfe

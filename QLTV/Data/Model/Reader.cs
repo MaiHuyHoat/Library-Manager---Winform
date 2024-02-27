@@ -21,7 +21,7 @@ namespace QLTV.Data.Model
         public int? BorrowedTime { get; set; }
         public decimal? Deposit { get; set; }
         public int? RoleId { get; set; }
-        public int Deleted { get; set; }
+        public int Deleted { get; set; } = 0;   
 
         public virtual RoleReader? Role { get; set; }
         public virtual ICollection<BorrowRequest> BorrowRequests { get; set; }

@@ -36,22 +36,27 @@ namespace QLTV.Module.TaiNguyen.Sach
             this.setComboxTheLoai();
             this.setComboboxCreatedDate();
         }
-         public string getDrictoryApp()
+        public string getDrictoryApp()
         {
             string projectDirectory = AppDomain.CurrentDomain.BaseDirectory;
             string[] words = projectDirectory.Split(new char[] { '\\' });
             Array.Resize(ref words, words.Length - 4);
             return string.Join("\\", words);
         }
-    
+
+        private void reLoadData(object sender, EventArgs e)
+        {
+            this.loadData(null);
+        }
         private void loadData(Dictionary<string, string> constraint)
         {
             var query = from book in dbContext.Books
                         join category in dbContext.Categories on book.CategoryId equals category.Id
                         join author in dbContext.Authors on book.AuthorId equals author.Id
-                        select new { book, category, author }; 
+                        where book.Deleted == 0
+                        select new { book, category, author };
 
-            
+
             if (constraint != null)
             {
                 if (constraint.TryGetValue("name", out string name))
@@ -73,7 +78,7 @@ namespace QLTV.Module.TaiNguyen.Sach
                 }
             }
 
-          
+
             List<SachShow> listData = query.Select(data => new SachShow
             {
                 Id = data.book.Id,
@@ -97,8 +102,10 @@ namespace QLTV.Module.TaiNguyen.Sach
                 }
                 else
                 {
-         
-                    this.dataGridViewData.Rows.Add(ss.Id.ToString(), null, ss.Name, ss.Category, ss.Author, ss.Price, ss.Amount, ss.CreatedDate);
+
+                    this.dataGridViewData.Rows.Add(ss.Id.ToString(),
+                        Image.FromFile(System.IO.Path.Combine(this.pathApp ?? this.getDrictoryApp(), "Resources", "image", "book.png"))
+                        , ss.Name, ss.Category, ss.Author, ss.Price, ss.Amount, ss.CreatedDate);
                 }
             }
         }
@@ -108,9 +115,10 @@ namespace QLTV.Module.TaiNguyen.Sach
         {
             this.comboBoxTacGia.Items.Clear();
             this.comboBoxTacGia.Items.Add("Tất cả");
-            List<Author> authorList= dbContext.Authors.ToList();
+            List<Author> authorList = dbContext.Authors.ToList();
 
-            foreach (Author author in authorList) {
+            foreach (Author author in authorList)
+            {
                 this.comboBoxTacGia.Items.Add(author.Name);
             }
             this.comboBoxTacGia.SelectedIndex = 0;
@@ -135,22 +143,80 @@ namespace QLTV.Module.TaiNguyen.Sach
             this.comboBoxNgayTao.Items.Add("Giảm dần");
             this.comboBoxNgayTao.Items.Add("Tăng dần");
             this.comboBoxNgayTao.SelectedIndex = 0;
-          
+
         }
 
         private void buttonTimKiem_Click(object sender, EventArgs e)
         {
-            Dictionary<string,string> constraint= new Dictionary<string,string>();
-            if(this.comboBoxNgayTao.SelectedIndex!=0)
+            Dictionary<string, string> constraint = new Dictionary<string, string>();
+            if (this.comboBoxNgayTao.SelectedIndex != 0)
             {
                 if (this.comboBoxNgayTao.SelectedIndex == 1) constraint.Add("createdDate", "desc");
                 if (this.comboBoxNgayTao.SelectedIndex == 2) constraint.Add("createdDate", "asc");
             }
-            if(this.comboBoxTacGia.SelectedIndex!=0) constraint.Add("authorName",this.comboBoxTacGia.SelectedItem.ToString());
-            if (this.comboBoxTheLoai.SelectedIndex != 0) constraint.Add("categoryName", this.comboBoxTacGia.SelectedItem.ToString());
-            if(!string.IsNullOrEmpty(this.textBoxTimkiem.Text))constraint.Add("name",this.textBoxTimkiem.Text);
+            if (this.comboBoxTacGia.SelectedIndex != 0) constraint.Add("authorName", this.comboBoxTacGia.SelectedItem.ToString());
+            if (this.comboBoxTheLoai.SelectedIndex != 0) constraint.Add("categoryName", this.comboBoxTheLoai.SelectedItem.ToString());
+            if (!string.IsNullOrEmpty(this.textBoxTimkiem.Text)) constraint.Add("name", this.textBoxTimkiem.Text);
             this.loadData(constraint);
-         
+
+        }
+
+        private void buttonThem_Click(object sender, EventArgs e)
+        {
+            add formAdd = new add();
+            formAdd._eventAdd += this.reLoadData;
+            formAdd.Show();
+        }
+
+        private void buttonChiTiet_Click(object sender, EventArgs e)
+        {
+            if (this.dataGridViewData.SelectedRows.Count > 0)
+            {
+                int id = int.Parse(this.dataGridViewData.SelectedRows[0].Cells[0].Value.ToString());
+                detail formDetail = new detail(id);
+                formDetail.Show();
+            }
+            else
+            {
+                MessageBox.Show("Bạn cần chọn ít nhật một đối tượng để thực hiện hành động .");
+            }
+        }
+
+        private void buttonEdit_Click(object sender, EventArgs e)
+        {
+            if (this.dataGridViewData.SelectedRows.Count > 0)
+            {
+                int id = int.Parse(this.dataGridViewData.SelectedRows[0].Cells[0].Value.ToString());
+                edit form = new edit(id);
+                form._eventAdd += this.reLoadData;
+                form.Show();
+            }
+            else
+            {
+                MessageBox.Show("Bạn cần chọn ít nhật một đối tượng để thực hiện hành động .");
+            }
+        }
+
+        private async void buttonXoa_Click(object sender, EventArgs e)
+        {
+            if (this.dataGridViewData.SelectedRows.Count > 0)
+            {
+                string name = this.dataGridViewData.SelectedRows[0].Cells[2].Value.ToString();
+                DialogResult rs= MessageBox.Show($"Không thể xoá \n Chỉ có thể ẩn . Bạn vẫn muốn tiếp tục ẩn sách có tên: \n {name}","Xác nhận xoá ", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
+                if (rs == DialogResult.Yes)
+                {
+                    int id = int.Parse(this.dataGridViewData.SelectedRows[0].Cells[0].Value.ToString());
+                    Book model = dbContext.Books.FirstOrDefault(model => model.Id == id);
+                    model.Deleted = 1;
+                    await dbContext.SaveChangesAsync();
+                    this.loadData(null);
+                }
+              
+            }
+            else
+            {
+                MessageBox.Show("Bạn cần chọn ít nhật một đối tượng để thực hiện hành động .");
+            }
         }
     }
 }
