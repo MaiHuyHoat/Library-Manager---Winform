@@ -182,3 +182,5 @@ F:\Dai_Hoc\Ky_8\LTWin\Project\QLTV\QLTV\obj\Debug\net6.0-windows\QLTV.Module.Tai
 C:\Ltrinhwin\Library-Manager---Winform\QLTV\obj\Debug\net6.0-windows\QLTV.Module.TaiNguyen.Sach.add.resources
 C:\Ltrinhwin\Library-Manager---Winform\QLTV\obj\Debug\net6.0-windows\QLTV.Module.TaiNguyen.Sach.detail.resources
 C:\Ltrinhwin\Library-Manager---Winform\QLTV\obj\Debug\net6.0-windows\QLTV.Module.TaiNguyen.Sach.edit.resources
+C:\Ltrinhwin\Library-Manager---Winform\QLTV\obj\Debug\net6.0-windows\QLTV.Module.TaiNguyen.TacGia.add.resources
+C:\Ltrinhwin\Library-Manager---Winform\QLTV\obj\Debug\net6.0-windows\QLTV.Module.TaiNguyen.TacGia.edit.resources

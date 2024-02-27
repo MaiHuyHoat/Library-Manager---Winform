@@ -29,41 +29,137 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(index));
-            panel1 = new Panel();
-            label2 = new Label();
-            label1 = new Label();
-            btnTimKiem = new Button();
-            txtTimkiem = new TextBox();
+            dgvTacGia = new DataGridView();
+            ColumnId = new DataGridViewTextBoxColumn();
+            ColumnTen = new DataGridViewTextBoxColumn();
+            buttonTimKiem = new Button();
+            buttonEdit = new Button();
+            buttonXoa = new Button();
+            buttonThem = new Button();
+            textBoxTimkiem = new TextBox();
             label5 = new Label();
-            dgvAuthors = new DataGridView();
-            clmId = new DataGridViewTextBoxColumn();
-            clmname = new DataGridViewTextBoxColumn();
+            label1 = new Label();
+            panel1 = new Panel();
+            ((System.ComponentModel.ISupportInitialize)dgvTacGia).BeginInit();
             panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)dgvAuthors).BeginInit();
             SuspendLayout();
             // 
-            // panel1
+            // dgvTacGia
             // 
-            panel1.BackColor = Color.FromArgb(75, 83, 102);
-            panel1.Controls.Add(label2);
-            panel1.Controls.Add(label1);
-            panel1.Location = new Point(-278, 0);
-            panel1.Margin = new Padding(3, 4, 3, 4);
-            panel1.Name = "panel1";
-            panel1.Size = new Size(1395, 65);
-            panel1.TabIndex = 1;
-            panel1.Paint += panel1_Paint;
+            dgvTacGia.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+            dgvTacGia.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dgvTacGia.Columns.AddRange(new DataGridViewColumn[] { ColumnId, ColumnTen });
+            dgvTacGia.Location = new Point(7, 181);
+            dgvTacGia.Margin = new Padding(3, 4, 3, 4);
+            dgvTacGia.Name = "dgvTacGia";
+            dgvTacGia.RowHeadersWidth = 51;
+            dgvTacGia.RowTemplate.DefaultCellStyle.WrapMode = DataGridViewTriState.True;
+            dgvTacGia.RowTemplate.Height = 65;
+            dgvTacGia.Size = new Size(1229, 667);
+            dgvTacGia.TabIndex = 30;
             // 
-            // label2
+            // ColumnId
             // 
-            label2.AutoSize = true;
-            label2.Font = new Font("Segoe UI", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
-            label2.ForeColor = SystemColors.ButtonFace;
-            label2.Location = new Point(292, 13);
-            label2.Name = "label2";
-            label2.Size = new Size(207, 37);
-            label2.TabIndex = 1;
-            label2.Text = "Quản lý tác giả";
+            ColumnId.AutoSizeMode = DataGridViewAutoSizeColumnMode.ColumnHeader;
+            ColumnId.DataPropertyName = "id";
+            ColumnId.FillWeight = 46.5289536F;
+            ColumnId.HeaderText = "Id";
+            ColumnId.MinimumWidth = 6;
+            ColumnId.Name = "ColumnId";
+            ColumnId.Width = 51;
+            // 
+            // ColumnTen
+            // 
+            ColumnTen.FillWeight = 85.04722F;
+            ColumnTen.HeaderText = "Tên";
+            ColumnTen.MinimumWidth = 6;
+            ColumnTen.Name = "ColumnTen";
+            // 
+            // buttonTimKiem
+            // 
+            buttonTimKiem.BackColor = SystemColors.MenuHighlight;
+            buttonTimKiem.FlatAppearance.BorderSize = 0;
+            buttonTimKiem.FlatStyle = FlatStyle.Flat;
+            buttonTimKiem.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            buttonTimKiem.ForeColor = SystemColors.ButtonFace;
+            buttonTimKiem.Image = (Image)resources.GetObject("buttonTimKiem.Image");
+            buttonTimKiem.ImageAlign = ContentAlignment.MiddleLeft;
+            buttonTimKiem.Location = new Point(648, 99);
+            buttonTimKiem.Margin = new Padding(3, 4, 3, 4);
+            buttonTimKiem.Name = "buttonTimKiem";
+            buttonTimKiem.Size = new Size(150, 51);
+            buttonTimKiem.TabIndex = 29;
+            buttonTimKiem.Text = "Tìm kiếm";
+            buttonTimKiem.UseVisualStyleBackColor = false;
+            buttonTimKiem.Click += buttonTimKiem_Click;
+            // 
+            // buttonEdit
+            // 
+            buttonEdit.BackColor = Color.FromArgb(255, 128, 0);
+            buttonEdit.FlatAppearance.BorderSize = 0;
+            buttonEdit.FlatStyle = FlatStyle.Flat;
+            buttonEdit.Font = new Font("Segoe UI", 11.25F, FontStyle.Bold, GraphicsUnit.Point);
+            buttonEdit.ForeColor = SystemColors.ButtonHighlight;
+            buttonEdit.Location = new Point(1258, 467);
+            buttonEdit.Margin = new Padding(3, 4, 3, 4);
+            buttonEdit.Name = "buttonEdit";
+            buttonEdit.Size = new Size(113, 52);
+            buttonEdit.TabIndex = 28;
+            buttonEdit.Text = "Sửa";
+            buttonEdit.UseVisualStyleBackColor = false;
+            buttonEdit.Click += buttonEdit_Click;
+            // 
+            // buttonXoa
+            // 
+            buttonXoa.BackColor = Color.Red;
+            buttonXoa.FlatAppearance.BorderSize = 0;
+            buttonXoa.FlatStyle = FlatStyle.Flat;
+            buttonXoa.Font = new Font("Segoe UI", 11.25F, FontStyle.Bold, GraphicsUnit.Point);
+            buttonXoa.ForeColor = SystemColors.ButtonHighlight;
+            buttonXoa.Location = new Point(1258, 575);
+            buttonXoa.Margin = new Padding(3, 4, 3, 4);
+            buttonXoa.Name = "buttonXoa";
+            buttonXoa.Size = new Size(113, 52);
+            buttonXoa.TabIndex = 27;
+            buttonXoa.Text = "Xoá";
+            buttonXoa.UseVisualStyleBackColor = false;
+            buttonXoa.Click += buttonXoa_Click;
+            // 
+            // buttonThem
+            // 
+            buttonThem.BackColor = Color.FromArgb(40, 167, 69);
+            buttonThem.FlatAppearance.BorderSize = 0;
+            buttonThem.FlatStyle = FlatStyle.Flat;
+            buttonThem.Font = new Font("Segoe UI", 11.25F, FontStyle.Bold, GraphicsUnit.Point);
+            buttonThem.ForeColor = SystemColors.ButtonHighlight;
+            buttonThem.Image = (Image)resources.GetObject("buttonThem.Image");
+            buttonThem.ImageAlign = ContentAlignment.MiddleLeft;
+            buttonThem.Location = new Point(1258, 378);
+            buttonThem.Margin = new Padding(3, 4, 3, 4);
+            buttonThem.Name = "buttonThem";
+            buttonThem.Size = new Size(113, 52);
+            buttonThem.TabIndex = 25;
+            buttonThem.Text = "Thêm";
+            buttonThem.UseVisualStyleBackColor = false;
+            buttonThem.Click += buttonThem_Click;
+            // 
+            // textBoxTimkiem
+            // 
+            textBoxTimkiem.Location = new Point(437, 106);
+            textBoxTimkiem.Margin = new Padding(3, 4, 3, 4);
+            textBoxTimkiem.Name = "textBoxTimkiem";
+            textBoxTimkiem.Size = new Size(186, 27);
+            textBoxTimkiem.TabIndex = 24;
+            // 
+            // label5
+            // 
+            label5.AutoSize = true;
+            label5.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            label5.Location = new Point(328, 108);
+            label5.Name = "label5";
+            label5.Size = new Size(111, 28);
+            label5.TabIndex = 23;
+            label5.Text = "Tìm kiếm :";
             // 
             // label1
             // 
@@ -72,99 +168,59 @@
             label1.ForeColor = SystemColors.ButtonFace;
             label1.Location = new Point(3, 13);
             label1.Name = "label1";
-            label1.Size = new Size(177, 37);
+            label1.Size = new Size(207, 37);
             label1.TabIndex = 0;
-            label1.Text = "Quản lý sách";
+            label1.Text = "Quản lý tác giả";
             // 
-            // btnTimKiem
+            // panel1
             // 
-            btnTimKiem.BackColor = SystemColors.MenuHighlight;
-            btnTimKiem.FlatAppearance.BorderSize = 0;
-            btnTimKiem.FlatStyle = FlatStyle.Flat;
-            btnTimKiem.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            btnTimKiem.ForeColor = SystemColors.ButtonFace;
-            btnTimKiem.Image = (Image)resources.GetObject("btnTimKiem.Image");
-            btnTimKiem.ImageAlign = ContentAlignment.MiddleLeft;
-            btnTimKiem.Location = new Point(516, 87);
-            btnTimKiem.Margin = new Padding(3, 4, 3, 4);
-            btnTimKiem.Name = "btnTimKiem";
-            btnTimKiem.Size = new Size(150, 51);
-            btnTimKiem.TabIndex = 17;
-            btnTimKiem.Text = "Tìm kiếm";
-            btnTimKiem.UseVisualStyleBackColor = false;
-            // 
-            // txtTimkiem
-            // 
-            txtTimkiem.Location = new Point(305, 94);
-            txtTimkiem.Margin = new Padding(3, 4, 3, 4);
-            txtTimkiem.Name = "txtTimkiem";
-            txtTimkiem.Size = new Size(186, 27);
-            txtTimkiem.TabIndex = 16;
-            // 
-            // label5
-            // 
-            label5.AutoSize = true;
-            label5.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            label5.Location = new Point(196, 96);
-            label5.Name = "label5";
-            label5.Size = new Size(111, 28);
-            label5.TabIndex = 15;
-            label5.Text = "Tìm kiếm :";
-            // 
-            // dgvAuthors
-            // 
-            dgvAuthors.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dgvAuthors.Columns.AddRange(new DataGridViewColumn[] { clmId, clmname });
-            dgvAuthors.Location = new Point(266, 165);
-            dgvAuthors.Name = "dgvAuthors";
-            dgvAuthors.RowHeadersWidth = 51;
-            dgvAuthors.RowTemplate.Height = 29;
-            dgvAuthors.Size = new Size(305, 213);
-            dgvAuthors.TabIndex = 18;
-            // 
-            // clmId
-            // 
-            clmId.AutoSizeMode = DataGridViewAutoSizeColumnMode.ColumnHeader;
-            clmId.HeaderText = "Id";
-            clmId.MinimumWidth = 6;
-            clmId.Name = "clmId";
-            clmId.Width = 51;
-            // 
-            // clmname
-            // 
-            clmname.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
-            clmname.HeaderText = "Tên tác giả";
-            clmname.MinimumWidth = 6;
-            clmname.Name = "clmname";
+            panel1.BackColor = Color.FromArgb(75, 83, 102);
+            panel1.Controls.Add(label1);
+            panel1.Location = new Point(0, -2);
+            panel1.Margin = new Padding(3, 4, 3, 4);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(1395, 77);
+            panel1.TabIndex = 16;
             // 
             // index
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            Controls.Add(dgvAuthors);
-            Controls.Add(btnTimKiem);
-            Controls.Add(txtTimkiem);
+            Controls.Add(dgvTacGia);
+            Controls.Add(buttonTimKiem);
+            Controls.Add(buttonEdit);
+            Controls.Add(buttonXoa);
+            Controls.Add(buttonThem);
+            Controls.Add(textBoxTimkiem);
             Controls.Add(label5);
             Controls.Add(panel1);
             Name = "index";
-            Size = new Size(921, 535);
+            Size = new Size(1395, 867);
+            ((System.ComponentModel.ISupportInitialize)dgvTacGia).EndInit();
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)dgvAuthors).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
 
-        private Panel panel1;
-        private Label label1;
-        private Label label2;
-        private Button btnTimKiem;
-        private TextBox txtTimkiem;
+        private DataGridViewTextBoxColumn ColumnNgayTao;
+        private DataGridViewTextBoxColumn ColumnGia;
+        private DataGridViewTextBoxColumn ColumnTacGia;
+        private DataGridViewTextBoxColumn ColumnTheLoai;
+        private DataGridViewImageColumn ColumnTenSach;
+        private DataGridView dgvTacGia;
+        private DataGridViewTextBoxColumn ColumnAmount;
+        private Button buttonTimKiem;
+        private Button buttonEdit;
+        private Button buttonXoa;
+        private Button buttonThem;
+        private TextBox textBoxTimkiem;
         private Label label5;
-        private DataGridView dgvAuthors;
-        private DataGridViewTextBoxColumn clmId;
-        private DataGridViewTextBoxColumn clmname;
+        private Label label1;
+        private Panel panel1;
+        private DataGridViewTextBoxColumn ColumnId;
+        private DataGridViewTextBoxColumn ColumnTen;
     }
 }

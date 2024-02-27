@@ -45,7 +45,8 @@ namespace QLTV
 
         private void buttonSach_Click(object sender, EventArgs e)
         {
-            if(!panelMain.Controls.Contains(module_Sach.index.Instance)) {
+            if (!panelMain.Controls.Contains(module_Sach.index.Instance))
+            {
                 panelMain.Controls.Add(module_Sach.index.Instance);
                 module_Sach.index.Instance.Dock = DockStyle.Fill;
                 module_Sach.index.Instance.BringToFront();
@@ -75,5 +76,6 @@ namespace QLTV
             }
             else module_TacGia.index.Instance.BringToFront();
         }
+
     }
 }

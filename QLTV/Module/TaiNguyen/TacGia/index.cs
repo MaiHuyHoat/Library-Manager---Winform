@@ -35,6 +35,7 @@ namespace QLTV.Module.TaiNguyen.TacGia
         private void loadData(Dictionary<string, string> constraint)
         {
             var query = from author in dbContext.Authors
+                        where author.Deleted == 0
                         select new { author };
 
 
@@ -51,16 +52,66 @@ namespace QLTV.Module.TaiNguyen.TacGia
                 Name = data.author.Name
             }).ToList();
 
-            this.dgvAuthors.Rows.Clear();
+            this.dgvTacGia.Rows.Clear();
             foreach (TacGiaShow tgs in listData)
-            {                
-                    this.dgvAuthors.Rows.Add(tgs.Id.ToString(), tgs.Name);
+            {
+                this.dgvTacGia.Rows.Add(tgs.Id.ToString(), tgs.Name);
             }
         }
+        private void reLoadData(object sender, EventArgs e)
+        {
+            this.loadData(null);
+        }
 
-        private void panel1_Paint(object sender, PaintEventArgs e)
+        private void buttonTimKiem_Click(object sender, EventArgs e)
+        {
+            Dictionary<string, string> constraint = new Dictionary<string, string>();
+            if (!string.IsNullOrEmpty(this.textBoxTimkiem.Text)) constraint.Add("name", this.textBoxTimkiem.Text);
+            this.loadData(constraint);
+        }
+
+        private void buttonThem_Click(object sender, EventArgs e)
+        {
+            add formAdd = new add();
+            formAdd._eventAdd += this.reLoadData;
+            formAdd.Show();
+        }
+
+        private void buttonEdit_Click(object sender, EventArgs e)
         {
 
+            if (this.dgvTacGia.SelectedRows.Count > 0)
+            {
+                int id = int.Parse(this.dgvTacGia.SelectedRows[0].Cells[0].Value.ToString());
+                edit form = new edit(id);
+                form._eventAdd += this.reLoadData;
+                form.Show();
+            }
+            else
+            {
+                MessageBox.Show("Bạn cần chọn ít nhật một đối tượng để thực hiện hành động .");
+            }
+        }
+        private async void buttonXoa_Click(object sender, EventArgs e)
+        {
+            if (this.dgvTacGia.SelectedRows.Count > 0)
+            {
+                string name = this.dgvTacGia.SelectedRows[0].Cells[1].Value.ToString();
+                DialogResult rs = MessageBox.Show($"Không thể xoá \n Chỉ có thể ẩn . Bạn vẫn muốn tiếp tục ẩn sách có tên: \n {name}", "Xác nhận xoá ", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
+                if (rs == DialogResult.Yes)
+                {
+                    int id = int.Parse(this.dgvTacGia.SelectedRows[0].Cells[0].Value.ToString());
+                    Author model = dbContext.Authors.FirstOrDefault(model => model.Id == id);
+                    model.Deleted = 1;
+                    await dbContext.SaveChangesAsync();
+                    this.loadData(null);
+                }
+
+            }
+            else
+            {
+                MessageBox.Show("Bạn cần chọn ít nhật một đối tượng để thực hiện hành động .");
+            }
         }
     }
 }
