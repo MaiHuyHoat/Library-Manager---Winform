@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-
+using module_TacGia = QLTV.Module.TaiNguyen.TacGia;
 using module_Sach = QLTV.Module.TaiNguyen.Sach;
 using module_Dashboard = QLTV.Module.Dashboard;
 using System.Xml.Linq;
@@ -26,7 +26,7 @@ namespace QLTV
 
             setDefaultPanelMain();
         }
-    
+
         private void setDefaultPanelMain()
         {
 
@@ -45,9 +45,10 @@ namespace QLTV
 
         private void buttonSach_Click(object sender, EventArgs e)
         {
-            if(!panelMain.Controls.Contains(module_Sach.index.Instance)) {
-              panelMain.Controls.Add(module_Sach.index.Instance);
-               module_Sach.index.Instance.Dock = DockStyle.Fill;
+            if (!panelMain.Controls.Contains(module_Sach.index.Instance))
+            {
+                panelMain.Controls.Add(module_Sach.index.Instance);
+                module_Sach.index.Instance.Dock = DockStyle.Fill;
                 module_Sach.index.Instance.BringToFront();
             }
             else module_Sach.index.Instance.BringToFront();
@@ -64,5 +65,17 @@ namespace QLTV
             else module_Dashboard.index.Instance.BringToFront();
 
         }
+
+        private void buttonTacGia_Click(object sender, EventArgs e)
+        {
+            if (!panelMain.Controls.Contains(module_TacGia.index.Instance))
+            {
+                panelMain.Controls.Add(module_TacGia.index.Instance);
+                module_TacGia.index.Instance.Dock = DockStyle.Fill;
+                module_TacGia.index.Instance.BringToFront();
+            }
+            else module_TacGia.index.Instance.BringToFront();
+        }
+
     }
 }
