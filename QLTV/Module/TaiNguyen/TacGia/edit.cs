@@ -51,8 +51,6 @@ namespace QLTV.Module.TaiNguyen.TacGia
             }
             else
             {
-
-
                 Author model = this.dbContext.Authors.FirstOrDefault(b => b.Id == this.idAuthor);
                 model.Name = this.textBoxTen.Text;
                 try
@@ -60,7 +58,7 @@ namespace QLTV.Module.TaiNguyen.TacGia
                    
 
                     await this.dbContext.SaveChangesAsync();
-                    MessageBox.Show("Đã cập nhật sách thành công . ");
+                    MessageBox.Show("Đã cập nhật tác giả thành công . ");
                     this.onModelEdited();
                     this.Close();
                 }

@@ -178,6 +178,7 @@
             buttonDocGia.TabIndex = 8;
             buttonDocGia.Text = "Độc giả";
             buttonDocGia.UseVisualStyleBackColor = true;
+            buttonDocGia.Click += buttonDocGia_Click;
             // 
             // buttonTheLoai
             // 
