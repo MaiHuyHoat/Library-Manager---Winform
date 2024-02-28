@@ -43,6 +43,12 @@
     <Compile Update="Module\TaiNguyen\TacGia\index.cs">
       <SubType>UserControl</SubType>
     </Compile>
+    <Compile Update="Module\TaiNguyen\TheLoai\add.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Module\TaiNguyen\TheLoai\edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Module\TaiNguyen\TheLoai\index.cs">
       <SubType>UserControl</SubType>
     </Compile>
