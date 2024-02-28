@@ -329,6 +329,7 @@
             Controls.Add(panel1);
             FormBorderStyle = FormBorderStyle.None;
             Name = "edit";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "edit";
             ((System.ComponentModel.ISupportInitialize)pictureBoxAnh).EndInit();
             panel1.ResumeLayout(false);
