@@ -30,17 +30,16 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(index));
             dataGridViewData = new DataGridView();
+            ColumnId = new DataGridViewTextBoxColumn();
+            ColumnTheLoai = new DataGridViewTextBoxColumn();
             buttonTimKiem = new Button();
             button4 = new Button();
             button3 = new Button();
-            button2 = new Button();
-            comboBoxTheLoai = new ComboBox();
             label3 = new Label();
             label1 = new Label();
             buttonThem = new Button();
             panel1 = new Panel();
-            ColumnId = new DataGridViewTextBoxColumn();
-            ColumnTheLoai = new DataGridViewTextBoxColumn();
+            textBoxTimKiem = new TextBox();
             ((System.ComponentModel.ISupportInitialize)dataGridViewData).BeginInit();
             panel1.SuspendLayout();
             SuspendLayout();
@@ -59,6 +58,23 @@
             dataGridViewData.Size = new Size(1229, 667);
             dataGridViewData.TabIndex = 30;
             // 
+            // ColumnId
+            // 
+            ColumnId.AutoSizeMode = DataGridViewAutoSizeColumnMode.ColumnHeader;
+            ColumnId.DataPropertyName = "id";
+            ColumnId.FillWeight = 46.5289536F;
+            ColumnId.HeaderText = "Id";
+            ColumnId.MinimumWidth = 6;
+            ColumnId.Name = "ColumnId";
+            ColumnId.Width = 51;
+            // 
+            // ColumnTheLoai
+            // 
+            ColumnTheLoai.FillWeight = 85.04722F;
+            ColumnTheLoai.HeaderText = "Thể loại";
+            ColumnTheLoai.MinimumWidth = 6;
+            ColumnTheLoai.Name = "ColumnTheLoai";
+            // 
             // buttonTimKiem
             // 
             buttonTimKiem.BackColor = SystemColors.MenuHighlight;
@@ -68,13 +84,14 @@
             buttonTimKiem.ForeColor = SystemColors.ButtonFace;
             buttonTimKiem.Image = (Image)resources.GetObject("buttonTimKiem.Image");
             buttonTimKiem.ImageAlign = ContentAlignment.MiddleLeft;
-            buttonTimKiem.Location = new Point(691, 106);
+            buttonTimKiem.Location = new Point(733, 110);
             buttonTimKiem.Margin = new Padding(3, 4, 3, 4);
             buttonTimKiem.Name = "buttonTimKiem";
             buttonTimKiem.Size = new Size(150, 51);
             buttonTimKiem.TabIndex = 29;
             buttonTimKiem.Text = "Tìm kiếm";
             buttonTimKiem.UseVisualStyleBackColor = false;
+            buttonTimKiem.Click += buttonTimKiem_Click;
             // 
             // button4
             // 
@@ -90,6 +107,7 @@
             button4.TabIndex = 28;
             button4.Text = "Sửa";
             button4.UseVisualStyleBackColor = false;
+            button4.Click += button4_Click;
             // 
             // button3
             // 
@@ -105,30 +123,7 @@
             button3.TabIndex = 27;
             button3.Text = "Xoá";
             button3.UseVisualStyleBackColor = false;
-            // 
-            // button2
-            // 
-            button2.BackColor = Color.FromArgb(192, 64, 0);
-            button2.FlatAppearance.BorderSize = 0;
-            button2.FlatStyle = FlatStyle.Flat;
-            button2.Font = new Font("Segoe UI", 11.25F, FontStyle.Bold, GraphicsUnit.Point);
-            button2.ForeColor = SystemColors.ButtonHighlight;
-            button2.Location = new Point(1258, 303);
-            button2.Margin = new Padding(3, 4, 3, 4);
-            button2.Name = "button2";
-            button2.Size = new Size(113, 52);
-            button2.TabIndex = 26;
-            button2.Text = "Chi tiết";
-            button2.UseVisualStyleBackColor = false;
-            // 
-            // comboBoxTheLoai
-            // 
-            comboBoxTheLoai.FormattingEnabled = true;
-            comboBoxTheLoai.Location = new Point(475, 121);
-            comboBoxTheLoai.Margin = new Padding(3, 4, 3, 4);
-            comboBoxTheLoai.Name = "comboBoxTheLoai";
-            comboBoxTheLoai.Size = new Size(166, 28);
-            comboBoxTheLoai.TabIndex = 20;
+            button3.Click += button3_Click;
             // 
             // label3
             // 
@@ -165,44 +160,35 @@
             buttonThem.TabIndex = 25;
             buttonThem.Text = "Thêm";
             buttonThem.UseVisualStyleBackColor = false;
+            buttonThem.Click += buttonThem_Click;
             // 
             // panel1
             // 
             panel1.BackColor = Color.FromArgb(75, 83, 102);
             panel1.Controls.Add(label1);
-            panel1.Location = new Point(0, 8);
+            panel1.Location = new Point(0, 0);
             panel1.Margin = new Padding(3, 4, 3, 4);
             panel1.Name = "panel1";
             panel1.Size = new Size(1395, 77);
             panel1.TabIndex = 16;
             // 
-            // ColumnId
+            // textBoxTimKiem
             // 
-            ColumnId.AutoSizeMode = DataGridViewAutoSizeColumnMode.ColumnHeader;
-            ColumnId.DataPropertyName = "id";
-            ColumnId.FillWeight = 46.5289536F;
-            ColumnId.HeaderText = "Id";
-            ColumnId.MinimumWidth = 6;
-            ColumnId.Name = "ColumnId";
-            ColumnId.Width = 51;
-            // 
-            // ColumnTheLoai
-            // 
-            ColumnTheLoai.FillWeight = 85.04722F;
-            ColumnTheLoai.HeaderText = "Thể loại";
-            ColumnTheLoai.MinimumWidth = 6;
-            ColumnTheLoai.Name = "ColumnTheLoai";
+            textBoxTimKiem.Location = new Point(468, 125);
+            textBoxTimKiem.Margin = new Padding(3, 4, 3, 4);
+            textBoxTimKiem.Name = "textBoxTimKiem";
+            textBoxTimKiem.Size = new Size(228, 27);
+            textBoxTimKiem.TabIndex = 104;
             // 
             // index
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
+            Controls.Add(textBoxTimKiem);
             Controls.Add(dataGridViewData);
             Controls.Add(buttonTimKiem);
             Controls.Add(button4);
             Controls.Add(button3);
-            Controls.Add(button2);
-            Controls.Add(comboBoxTheLoai);
             Controls.Add(label3);
             Controls.Add(buttonThem);
             Controls.Add(panel1);
@@ -220,13 +206,12 @@
         private Button buttonTimKiem;
         private Button button4;
         private Button button3;
-        private Button button2;
-        private ComboBox comboBoxTheLoai;
         private Label label3;
         private Label label1;
         private Button buttonThem;
         private Panel panel1;
         private DataGridViewTextBoxColumn ColumnId;
         private DataGridViewTextBoxColumn ColumnTheLoai;
+        private TextBox textBoxTimKiem;
     }
 }
