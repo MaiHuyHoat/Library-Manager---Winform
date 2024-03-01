@@ -1,5 +1,12 @@
 {
   "Version": 1,
+<<<<<<< HEAD
+  "WorkspaceRootPath": "C:\\Ltrinhwin\\Library-Manager---Winform\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{21758C2F-69E8-4FBC-9DF9-98BBB3A7FDFE}|QLTV\\QLTV.csproj|c:\\ltrinhwin\\library-manager---winform\\qltv\\module\\tainguyen\\sach\\detail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21758C2F-69E8-4FBC-9DF9-98BBB3A7FDFE}|QLTV\\QLTV.csproj|solutionrelative:qltv\\module\\tainguyen\\sach\\detail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+=======
   "WorkspaceRootPath": "F:\\Dai_Hoc\\Ky_8\\LTWin\\Project\\QLTV\\",
   "Documents": [
     {
@@ -29,6 +36,7 @@
     {
       "AbsoluteMoniker": "D:0:0:{21758C2F-69E8-4FBC-9DF9-98BBB3A7FDFE}|QLTV\\QLTV.csproj|f:\\dai_hoc\\ky_8\\ltwin\\project\\qltv\\qltv\\data\\entity\\muonsachshow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{21758C2F-69E8-4FBC-9DF9-98BBB3A7FDFE}|QLTV\\QLTV.csproj|solutionrelative:qltv\\data\\entity\\muonsachshow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+>>>>>>> 902d0911c1c0431d77b59564392a11443a1986ac
     }
   ],
   "DocumentGroupContainers": [
@@ -38,10 +46,26 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
+<<<<<<< HEAD
+          "SelectedChildIndex": 2,
+=======
           "SelectedChildIndex": 5,
+>>>>>>> 902d0911c1c0431d77b59564392a11443a1986ac
           "Children": [
             {
               "$type": "Document",
+<<<<<<< HEAD
+              "DocumentIndex": 0,
+              "Title": "detail.cs",
+              "DocumentMoniker": "C:\\Ltrinhwin\\Library-Manager---Winform\\QLTV\\Module\\TaiNguyen\\Sach\\detail.cs",
+              "RelativeDocumentMoniker": "QLTV\\Module\\TaiNguyen\\Sach\\detail.cs",
+              "ToolTip": "C:\\Ltrinhwin\\Library-Manager---Winform\\QLTV\\Module\\TaiNguyen\\Sach\\detail.cs",
+              "RelativeToolTip": "QLTV\\Module\\TaiNguyen\\Sach\\detail.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-28T13:54:09.48Z",
+              "EditorCaption": ""
+=======
               "DocumentIndex": 3,
               "Title": "index.cs",
               "DocumentMoniker": "F:\\Dai_Hoc\\Ky_8\\LTWin\\Project\\QLTV\\QLTV\\Module\\TaiNguyen\\Sach\\index.cs",
@@ -127,6 +151,7 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-02-28T08:36:49.498Z",
               "EditorCaption": " [Design]"
+>>>>>>> 902d0911c1c0431d77b59564392a11443a1986ac
             }
           ]
         }

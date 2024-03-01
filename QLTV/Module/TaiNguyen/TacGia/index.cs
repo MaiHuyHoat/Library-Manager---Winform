@@ -97,7 +97,7 @@ namespace QLTV.Module.TaiNguyen.TacGia
             if (this.dgvTacGia.SelectedRows.Count > 0)
             {
                 string name = this.dgvTacGia.SelectedRows[0].Cells[1].Value.ToString();
-                DialogResult rs = MessageBox.Show($"Không thể xoá \n Chỉ có thể ẩn . Bạn vẫn muốn tiếp tục ẩn sách có tên: \n {name}", "Xác nhận xoá ", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
+                DialogResult rs = MessageBox.Show($"Không thể xoá \n Chỉ có thể ẩn . Bạn vẫn muốn tiếp tục ẩn tác giả có tên: \n {name}", "Xác nhận xoá ", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
                 if (rs == DialogResult.Yes)
                 {
                     int id = int.Parse(this.dgvTacGia.SelectedRows[0].Cells[0].Value.ToString());

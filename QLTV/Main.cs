@@ -12,8 +12,13 @@ using module_TacGia = QLTV.Module.TaiNguyen.TacGia;
 using module_Sach = QLTV.Module.TaiNguyen.Sach;
 using module_Dashboard = QLTV.Module.Dashboard;
 using module_TheLoai = QLTV.Module.TaiNguyen.TheLoai;
+<<<<<<< HEAD
+using module_DocGia = QLTV.Module.MuonTra.DocGia;
+using System.Xml.Linq;
+=======
 using module_MuonSach = QLTV.Module.MuonTra.MuonSach;
 
+>>>>>>> 902d0911c1c0431d77b59564392a11443a1986ac
 
 
 namespace QLTV
@@ -85,6 +90,17 @@ namespace QLTV
             else module_TacGia.index.Instance.BringToFront();
         }
 
+<<<<<<< HEAD
+        private void buttonDocGia_Click(object sender, EventArgs e)
+        {
+            if (!panelMain.Controls.Contains(module_DocGia.index.Instance))
+            {
+                panelMain.Controls.Add(module_DocGia.index.Instance);
+                module_DocGia.index.Instance.Dock = DockStyle.Fill;
+                module_DocGia.index.Instance.BringToFront();
+            }
+            else module_DocGia.index.Instance.BringToFront();
+=======
         private void buttonMuonSach_Click(object sender, EventArgs e)
         {
          
@@ -95,6 +111,7 @@ namespace QLTV
                 module_MuonSach.index.Instance.BringToFront();
             }
             else module_MuonSach.index.Instance.BringToFront();
+>>>>>>> 902d0911c1c0431d77b59564392a11443a1986ac
         }
     }
 }
