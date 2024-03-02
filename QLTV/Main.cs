@@ -13,7 +13,13 @@ using module_NhaXuatBan = QLTV.Module.TaiNguyen.NhaXuatBan;
 using module_Sach = QLTV.Module.TaiNguyen.Sach;
 using module_Dashboard = QLTV.Module.Dashboard;
 using module_TheLoai = QLTV.Module.TaiNguyen.TheLoai;
+
+using module_DocGia = QLTV.Module.MuonTra.DocGia;
 using System.Xml.Linq;
+
+using module_MuonSach = QLTV.Module.MuonTra.MuonSach;
+using module_TinhHinhPV = QLTV.Module.BaoCao.TinhHinhPhucVu;
+
 
 
 namespace QLTV
@@ -85,6 +91,7 @@ namespace QLTV
             else module_TacGia.index.Instance.BringToFront();
         }
 
+<<<<<<< HEAD
         private void buttonNhaXuatBan_Click(object sender, EventArgs e)
         {
             if (!panelMain.Controls.Contains(module_NhaXuatBan.index.Instance))
@@ -101,6 +108,41 @@ namespace QLTV
         private void label1_Click(object sender, EventArgs e)
         {
 
+=======
+
+        private void buttonDocGia_Click(object sender, EventArgs e)
+        {
+            if (!panelMain.Controls.Contains(module_DocGia.index.Instance))
+            {
+                panelMain.Controls.Add(module_DocGia.index.Instance);
+                module_DocGia.index.Instance.Dock = DockStyle.Fill;
+                module_DocGia.index.Instance.BringToFront();
+            }
+            else module_DocGia.index.Instance.BringToFront();
+        }
+
+        private void buttonMuonSach_Click(object sender, EventArgs e)
+        {
+
+            if (!panelMain.Controls.Contains(module_MuonSach.index.Instance))
+            {
+                panelMain.Controls.Add(module_MuonSach.index.Instance);
+                module_MuonSach.index.Instance.Dock = DockStyle.Fill;
+                module_MuonSach.index.Instance.BringToFront();
+            }
+            else module_MuonSach.index.Instance.BringToFront();
+        }
+
+        private void button14_Click(object sender, EventArgs e)
+        {
+            if (!panelMain.Controls.Contains(module_TinhHinhPV.index.Instance))
+            {
+                panelMain.Controls.Add(module_TinhHinhPV.index.Instance);
+                module_TinhHinhPV.index.Instance.Dock = DockStyle.Fill;
+                module_TinhHinhPV.index.Instance.BringToFront();
+            }
+            else module_TinhHinhPV.index.Instance.BringToFront();
+>>>>>>> 6a86b6b2eeec0450416422be297075061c3f76a4
         }
     }
 }

@@ -101,6 +101,8 @@
             buttonEdit.FlatStyle = FlatStyle.Flat;
             buttonEdit.Font = new Font("Segoe UI", 11.25F, FontStyle.Bold, GraphicsUnit.Point);
             buttonEdit.ForeColor = SystemColors.ButtonHighlight;
+            buttonEdit.Image = (Image)resources.GetObject("buttonEdit.Image");
+            buttonEdit.ImageAlign = ContentAlignment.MiddleLeft;
             buttonEdit.Location = new Point(1258, 467);
             buttonEdit.Margin = new Padding(3, 4, 3, 4);
             buttonEdit.Name = "buttonEdit";
@@ -117,6 +119,8 @@
             buttonXoa.FlatStyle = FlatStyle.Flat;
             buttonXoa.Font = new Font("Segoe UI", 11.25F, FontStyle.Bold, GraphicsUnit.Point);
             buttonXoa.ForeColor = SystemColors.ButtonHighlight;
+            buttonXoa.Image = (Image)resources.GetObject("buttonXoa.Image");
+            buttonXoa.ImageAlign = ContentAlignment.MiddleLeft;
             buttonXoa.Location = new Point(1258, 575);
             buttonXoa.Margin = new Padding(3, 4, 3, 4);
             buttonXoa.Name = "buttonXoa";

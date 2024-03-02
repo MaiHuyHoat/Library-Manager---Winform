@@ -44,7 +44,7 @@ namespace QLTV.Module.TaiNguyen.TacGia
 
                     this.dbContext.Add(model);
                     await this.dbContext.SaveChangesAsync();
-                    MessageBox.Show("Đã thêm sách thành công . ");
+                    MessageBox.Show("Đã thêm tác giả thành công . ");
                     this.onModelAdded();
                     this.Close();
                 }

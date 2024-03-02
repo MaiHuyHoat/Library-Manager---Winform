@@ -10,6 +10,15 @@
     <Compile Update="Module\Dashboard\index.cs">
       <SubType>UserControl</SubType>
     </Compile>
+    <Compile Update="Module\MuonTra\DocGia\add.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Module\MuonTra\DocGia\detail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Module\MuonTra\DocGia\edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Module\MuonTra\DocGia\index.cs">
       <SubType>UserControl</SubType>
     </Compile>

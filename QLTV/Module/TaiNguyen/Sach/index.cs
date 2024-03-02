@@ -28,6 +28,7 @@ namespace QLTV.Module.TaiNguyen.Sach
         }
         public index()
         {
+            
             InitializeComponent();
             dbContext = new DBContext();
             pathApp = this.getDrictoryApp();
