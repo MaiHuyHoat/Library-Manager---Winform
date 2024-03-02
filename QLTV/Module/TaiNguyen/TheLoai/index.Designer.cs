@@ -100,6 +100,8 @@
             button4.FlatStyle = FlatStyle.Flat;
             button4.Font = new Font("Segoe UI", 11.25F, FontStyle.Bold, GraphicsUnit.Point);
             button4.ForeColor = SystemColors.ButtonHighlight;
+            button4.Image = (Image)resources.GetObject("button4.Image");
+            button4.ImageAlign = ContentAlignment.MiddleLeft;
             button4.Location = new Point(1258, 477);
             button4.Margin = new Padding(3, 4, 3, 4);
             button4.Name = "button4";
@@ -116,6 +118,8 @@
             button3.FlatStyle = FlatStyle.Flat;
             button3.Font = new Font("Segoe UI", 11.25F, FontStyle.Bold, GraphicsUnit.Point);
             button3.ForeColor = SystemColors.ButtonHighlight;
+            button3.Image = (Image)resources.GetObject("button3.Image");
+            button3.ImageAlign = ContentAlignment.MiddleLeft;
             button3.Location = new Point(1258, 585);
             button3.Margin = new Padding(3, 4, 3, 4);
             button3.Name = "button3";
@@ -142,9 +146,9 @@
             label1.ForeColor = SystemColors.ButtonFace;
             label1.Location = new Point(3, 13);
             label1.Name = "label1";
-            label1.Size = new Size(191, 37);
+            label1.Size = new Size(198, 37);
             label1.TabIndex = 0;
-            label1.Text = "Thể Loại Sách";
+            label1.Text = "Thể  Loại Sách";
             // 
             // buttonThem
             // 
@@ -153,6 +157,8 @@
             buttonThem.FlatStyle = FlatStyle.Flat;
             buttonThem.Font = new Font("Segoe UI", 11.25F, FontStyle.Bold, GraphicsUnit.Point);
             buttonThem.ForeColor = SystemColors.ButtonHighlight;
+            buttonThem.Image = (Image)resources.GetObject("buttonThem.Image");
+            buttonThem.ImageAlign = ContentAlignment.MiddleLeft;
             buttonThem.Location = new Point(1258, 388);
             buttonThem.Margin = new Padding(3, 4, 3, 4);
             buttonThem.Name = "buttonThem";

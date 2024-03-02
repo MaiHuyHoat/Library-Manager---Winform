@@ -231,6 +231,7 @@
             buttonNhaXuatBan.TabIndex = 5;
             buttonNhaXuatBan.Text = "Nhà xuất bản";
             buttonNhaXuatBan.UseVisualStyleBackColor = true;
+            buttonNhaXuatBan.Click += buttonNhaXuatBan_Click;
             // 
             // buttonSach
             // 
@@ -334,7 +335,8 @@
             label1.Name = "label1";
             label1.Size = new Size(203, 32);
             label1.TabIndex = 1;
-            label1.Text = "Quản lý thư viện";
+            label1.Text = "Quản lý thư viện\r\n";
+            label1.Click += label1_Click;
             // 
             // pictureBox1
             // 

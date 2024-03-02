@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 
 using module_TacGia = QLTV.Module.TaiNguyen.TacGia;
+using module_NhaXuatBan = QLTV.Module.TaiNguyen.NhaXuatBan;
 using module_Sach = QLTV.Module.TaiNguyen.Sach;
 using module_Dashboard = QLTV.Module.Dashboard;
 using module_TheLoai = QLTV.Module.TaiNguyen.TheLoai;
@@ -90,6 +91,24 @@ namespace QLTV
             else module_TacGia.index.Instance.BringToFront();
         }
 
+<<<<<<< HEAD
+        private void buttonNhaXuatBan_Click(object sender, EventArgs e)
+        {
+            if (!panelMain.Controls.Contains(module_NhaXuatBan.index.Instance))
+            {
+                panelMain.Controls.Add(module_NhaXuatBan.index.Instance);
+                module_NhaXuatBan.index.Instance.Dock = DockStyle.Fill;
+                module_NhaXuatBan.index.Instance.BringToFront();
+
+            }
+            else module_NhaXuatBan.index.Instance.BringToFront();
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+=======
 
         private void buttonDocGia_Click(object sender, EventArgs e)
         {
@@ -123,6 +142,7 @@ namespace QLTV
                 module_TinhHinhPV.index.Instance.BringToFront();
             }
             else module_TinhHinhPV.index.Instance.BringToFront();
+>>>>>>> 6a86b6b2eeec0450416422be297075061c3f76a4
         }
     }
 }
