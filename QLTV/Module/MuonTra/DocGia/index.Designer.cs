@@ -42,11 +42,11 @@
             buttonChiTiet = new Button();
             buttonThem = new Button();
             textBoxTimkiem = new TextBox();
-            label5 = new Label();
             comboBoxChucVu = new ComboBox();
             label3 = new Label();
             label1 = new Label();
             panel1 = new Panel();
+            label5 = new Label();
             ((System.ComponentModel.ISupportInitialize)dataGridViewData).BeginInit();
             panel1.SuspendLayout();
             SuspendLayout();
@@ -119,7 +119,7 @@
             buttonTimKiem.ForeColor = SystemColors.ButtonFace;
             buttonTimKiem.Image = (Image)resources.GetObject("buttonTimKiem.Image");
             buttonTimKiem.ImageAlign = ContentAlignment.MiddleLeft;
-            buttonTimKiem.Location = new Point(666, 104);
+            buttonTimKiem.Location = new Point(768, 107);
             buttonTimKiem.Margin = new Padding(3, 4, 3, 4);
             buttonTimKiem.Name = "buttonTimKiem";
             buttonTimKiem.Size = new Size(150, 51);
@@ -135,6 +135,8 @@
             buttonEdit.FlatStyle = FlatStyle.Flat;
             buttonEdit.Font = new Font("Segoe UI", 11.25F, FontStyle.Bold, GraphicsUnit.Point);
             buttonEdit.ForeColor = SystemColors.ButtonHighlight;
+            buttonEdit.Image = (Image)resources.GetObject("buttonEdit.Image");
+            buttonEdit.ImageAlign = ContentAlignment.MiddleLeft;
             buttonEdit.Location = new Point(1258, 469);
             buttonEdit.Margin = new Padding(3, 4, 3, 4);
             buttonEdit.Name = "buttonEdit";
@@ -151,6 +153,8 @@
             buttonXoa.FlatStyle = FlatStyle.Flat;
             buttonXoa.Font = new Font("Segoe UI", 11.25F, FontStyle.Bold, GraphicsUnit.Point);
             buttonXoa.ForeColor = SystemColors.ButtonHighlight;
+            buttonXoa.Image = (Image)resources.GetObject("buttonXoa.Image");
+            buttonXoa.ImageAlign = ContentAlignment.MiddleLeft;
             buttonXoa.Location = new Point(1258, 577);
             buttonXoa.Margin = new Padding(3, 4, 3, 4);
             buttonXoa.Name = "buttonXoa";
@@ -167,6 +171,8 @@
             buttonChiTiet.FlatStyle = FlatStyle.Flat;
             buttonChiTiet.Font = new Font("Segoe UI", 11.25F, FontStyle.Bold, GraphicsUnit.Point);
             buttonChiTiet.ForeColor = SystemColors.ButtonHighlight;
+            buttonChiTiet.Image = (Image)resources.GetObject("buttonChiTiet.Image");
+            buttonChiTiet.ImageAlign = ContentAlignment.MiddleLeft;
             buttonChiTiet.Location = new Point(1258, 295);
             buttonChiTiet.Margin = new Padding(3, 4, 3, 4);
             buttonChiTiet.Name = "buttonChiTiet";
@@ -183,6 +189,8 @@
             buttonThem.FlatStyle = FlatStyle.Flat;
             buttonThem.Font = new Font("Segoe UI", 11.25F, FontStyle.Bold, GraphicsUnit.Point);
             buttonThem.ForeColor = SystemColors.ButtonHighlight;
+            buttonThem.Image = (Image)resources.GetObject("buttonThem.Image");
+            buttonThem.ImageAlign = ContentAlignment.MiddleLeft;
             buttonThem.Location = new Point(1258, 380);
             buttonThem.Margin = new Padding(3, 4, 3, 4);
             buttonThem.Name = "buttonThem";
@@ -194,21 +202,11 @@
             // 
             // textBoxTimkiem
             // 
-            textBoxTimkiem.Location = new Point(455, 111);
+            textBoxTimkiem.Location = new Point(557, 114);
             textBoxTimkiem.Margin = new Padding(3, 4, 3, 4);
             textBoxTimkiem.Name = "textBoxTimkiem";
             textBoxTimkiem.Size = new Size(186, 27);
             textBoxTimkiem.TabIndex = 24;
-            // 
-            // label5
-            // 
-            label5.AutoSize = true;
-            label5.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            label5.Location = new Point(346, 113);
-            label5.Name = "label5";
-            label5.Size = new Size(111, 28);
-            label5.TabIndex = 23;
-            label5.Text = "Tìm kiếm :";
             // 
             // comboBoxChucVu
             // 
@@ -250,10 +248,21 @@
             panel1.Size = new Size(1395, 77);
             panel1.TabIndex = 16;
             // 
+            // label5
+            // 
+            label5.AutoSize = true;
+            label5.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            label5.Location = new Point(342, 115);
+            label5.Name = "label5";
+            label5.Size = new Size(209, 28);
+            label5.TabIndex = 31;
+            label5.Text = "Tìm kiếm theo CMT :";
+            // 
             // index
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
+            Controls.Add(label5);
             Controls.Add(dataGridViewData);
             Controls.Add(buttonTimKiem);
             Controls.Add(buttonEdit);
@@ -261,7 +270,6 @@
             Controls.Add(buttonChiTiet);
             Controls.Add(buttonThem);
             Controls.Add(textBoxTimkiem);
-            Controls.Add(label5);
             Controls.Add(comboBoxChucVu);
             Controls.Add(label3);
             Controls.Add(panel1);
@@ -283,7 +291,6 @@
         private Button buttonChiTiet;
         private Button buttonThem;
         private TextBox textBoxTimkiem;
-        private Label label5;
         private ComboBox comboBoxChucVu;
         private Label label3;
         private Label label1;
@@ -294,5 +301,6 @@
         private DataGridViewTextBoxColumn ColumnCMT;
         private DataGridViewTextBoxColumn ColumnChucVu;
         private DataGridViewTextBoxColumn ColumnNgayTao;
+        private Label label5;
     }
 }
