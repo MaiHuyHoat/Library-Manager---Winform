@@ -57,6 +57,7 @@
             dgvTacGia.RowTemplate.Height = 65;
             dgvTacGia.Size = new Size(1229, 667);
             dgvTacGia.TabIndex = 30;
+            dgvTacGia.CellContentClick += dgvTacGia_CellContentClick;
             // 
             // ColumnId
             // 
@@ -196,6 +197,7 @@
             Controls.Add(panel1);
             Name = "index";
             Size = new Size(1395, 867);
+            Load += index_Load;
             ((System.ComponentModel.ISupportInitialize)dgvTacGia).EndInit();
             panel1.ResumeLayout(false);
             panel1.PerformLayout();

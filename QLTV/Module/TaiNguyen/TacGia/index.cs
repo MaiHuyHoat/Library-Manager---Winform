@@ -113,5 +113,15 @@ namespace QLTV.Module.TaiNguyen.TacGia
                 MessageBox.Show("Bạn cần chọn ít nhật một đối tượng để thực hiện hành động .");
             }
         }
+
+        private void index_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dgvTacGia_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }
