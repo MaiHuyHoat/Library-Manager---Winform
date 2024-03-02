@@ -57,6 +57,7 @@
             dgvTacGia.RowTemplate.Height = 65;
             dgvTacGia.Size = new Size(1229, 667);
             dgvTacGia.TabIndex = 30;
+            dgvTacGia.CellContentClick += dgvTacGia_CellContentClick;
             // 
             // ColumnId
             // 
@@ -100,6 +101,8 @@
             buttonEdit.FlatStyle = FlatStyle.Flat;
             buttonEdit.Font = new Font("Segoe UI", 11.25F, FontStyle.Bold, GraphicsUnit.Point);
             buttonEdit.ForeColor = SystemColors.ButtonHighlight;
+            buttonEdit.Image = (Image)resources.GetObject("buttonEdit.Image");
+            buttonEdit.ImageAlign = ContentAlignment.MiddleLeft;
             buttonEdit.Location = new Point(1258, 467);
             buttonEdit.Margin = new Padding(3, 4, 3, 4);
             buttonEdit.Name = "buttonEdit";
@@ -116,6 +119,8 @@
             buttonXoa.FlatStyle = FlatStyle.Flat;
             buttonXoa.Font = new Font("Segoe UI", 11.25F, FontStyle.Bold, GraphicsUnit.Point);
             buttonXoa.ForeColor = SystemColors.ButtonHighlight;
+            buttonXoa.Image = (Image)resources.GetObject("buttonXoa.Image");
+            buttonXoa.ImageAlign = ContentAlignment.MiddleLeft;
             buttonXoa.Location = new Point(1258, 575);
             buttonXoa.Margin = new Padding(3, 4, 3, 4);
             buttonXoa.Name = "buttonXoa";
@@ -196,6 +201,7 @@
             Controls.Add(panel1);
             Name = "index";
             Size = new Size(1395, 867);
+            Load += index_Load;
             ((System.ComponentModel.ISupportInitialize)dgvTacGia).EndInit();
             panel1.ResumeLayout(false);
             panel1.PerformLayout();

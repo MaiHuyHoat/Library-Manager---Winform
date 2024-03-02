@@ -1,5 +1,6 @@
 {
   "Version": 1,
+<<<<<<< HEAD
   "WorkspaceRootPath": "F:\\Dai_Hoc\\Ky_8\\LTWin\\Project\\QLTV\\",
   "Documents": [
     {
@@ -37,6 +38,21 @@
     {
       "AbsoluteMoniker": "D:0:0:{21758C2F-69E8-4FBC-9DF9-98BBB3A7FDFE}|QLTV\\QLTV.csproj|F:\\Dai_Hoc\\Ky_8\\LTWin\\Project\\QLTV\\qltv\\module\\muontra\\muonsach\\borrow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{21758C2F-69E8-4FBC-9DF9-98BBB3A7FDFE}|QLTV\\QLTV.csproj|solutionrelative:qltv\\module\\muontra\\muonsach\\borrow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+=======
+  "WorkspaceRootPath": "D:\\WinForm\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{21758C2F-69E8-4FBC-9DF9-98BBB3A7FDFE}|QLTV\\QLTV.csproj|d:\\winform\\qltv\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{21758C2F-69E8-4FBC-9DF9-98BBB3A7FDFE}|QLTV\\QLTV.csproj|solutionrelative:qltv\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21758C2F-69E8-4FBC-9DF9-98BBB3A7FDFE}|QLTV\\QLTV.csproj|D:\\WinForm\\qltv\\module\\dashboard\\index.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{21758C2F-69E8-4FBC-9DF9-98BBB3A7FDFE}|QLTV\\QLTV.csproj|solutionrelative:qltv\\module\\dashboard\\index.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21758C2F-69E8-4FBC-9DF9-98BBB3A7FDFE}|QLTV\\QLTV.csproj|D:\\WinForm\\qltv\\module\\dashboard\\index.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21758C2F-69E8-4FBC-9DF9-98BBB3A7FDFE}|QLTV\\QLTV.csproj|solutionrelative:qltv\\module\\dashboard\\index.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+>>>>>>> acc54b6c4f8b8e3d9045bc553781642549eddf54
     }
   ],
   "DocumentGroupContainers": [
@@ -51,6 +67,7 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+<<<<<<< HEAD
               "Title": "DBContext.cs",
               "DocumentMoniker": "F:\\Dai_Hoc\\Ky_8\\LTWin\\Project\\QLTV\\QLTV\\Data\\Model\\DBContext.cs",
               "RelativeDocumentMoniker": "QLTV\\Data\\Model\\DBContext.cs",
@@ -141,17 +158,43 @@
               "RelativeToolTip": "QLTV\\Module\\MuonTra\\MuonSach\\borrow.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-02T01:59:14.875Z"
+=======
+              "Title": "Main.cs [Design]",
+              "DocumentMoniker": "D:\\WinForm\\QLTV\\Main.cs",
+              "RelativeDocumentMoniker": "QLTV\\Main.cs",
+              "ToolTip": "D:\\WinForm\\QLTV\\Main.cs [Design]",
+              "RelativeToolTip": "QLTV\\Main.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-02T09:59:58.243Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "index.cs",
+              "DocumentMoniker": "D:\\WinForm\\QLTV\\Module\\Dashboard\\index.cs",
+              "RelativeDocumentMoniker": "QLTV\\Module\\Dashboard\\index.cs",
+              "ToolTip": "D:\\WinForm\\QLTV\\Module\\Dashboard\\index.cs",
+              "RelativeToolTip": "QLTV\\Module\\Dashboard\\index.cs",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAQwDwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-02T09:57:46.566Z"
+>>>>>>> acc54b6c4f8b8e3d9045bc553781642549eddf54
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "index.cs [Design]",
-              "DocumentMoniker": "F:\\Dai_Hoc\\Ky_8\\LTWin\\Project\\QLTV\\QLTV\\Module\\MuonTra\\MuonSach\\index.cs",
-              "RelativeDocumentMoniker": "QLTV\\Module\\MuonTra\\MuonSach\\index.cs",
-              "ToolTip": "F:\\Dai_Hoc\\Ky_8\\LTWin\\Project\\QLTV\\QLTV\\Module\\MuonTra\\MuonSach\\index.cs [Design]",
-              "RelativeToolTip": "QLTV\\Module\\MuonTra\\MuonSach\\index.cs [Design]",
+              "DocumentMoniker": "D:\\WinForm\\QLTV\\Module\\Dashboard\\index.cs",
+              "RelativeDocumentMoniker": "QLTV\\Module\\Dashboard\\index.cs",
+              "ToolTip": "D:\\WinForm\\QLTV\\Module\\Dashboard\\index.cs [Design]",
+              "RelativeToolTip": "QLTV\\Module\\Dashboard\\index.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+<<<<<<< HEAD
               "WhenOpened": "2024-02-28T08:36:49.498Z"
+=======
+              "WhenOpened": "2024-03-02T09:27:51.756Z"
+>>>>>>> acc54b6c4f8b8e3d9045bc553781642549eddf54
             }
           ]
         }

@@ -34,6 +34,12 @@
     <Compile Update="Module\MuonTra\MuonSach\pay.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Module\TaiNguyen\NhaXuatBan\add.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Module\TaiNguyen\NhaXuatBan\edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Module\TaiNguyen\NhaXuatBan\index.cs">
       <SubType>UserControl</SubType>
     </Compile>
