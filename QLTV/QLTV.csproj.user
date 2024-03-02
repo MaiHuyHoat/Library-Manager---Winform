@@ -25,8 +25,20 @@
     <Compile Update="Module\MuonTra\LichSu\index.cs">
       <SubType>UserControl</SubType>
     </Compile>
+    <Compile Update="Module\MuonTra\MuonSach\borrow.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Module\MuonTra\MuonSach\index.cs">
       <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Module\MuonTra\MuonSach\pay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Module\TaiNguyen\NhaXuatBan\add.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Module\TaiNguyen\NhaXuatBan\edit.cs">
+      <SubType>Form</SubType>
     </Compile>
     <Compile Update="Module\TaiNguyen\NhaXuatBan\index.cs">
       <SubType>UserControl</SubType>

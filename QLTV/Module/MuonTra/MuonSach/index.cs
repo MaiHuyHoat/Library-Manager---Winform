@@ -28,13 +28,12 @@ namespace QLTV.Module.MuonTra.MuonSach
         public index()
         {
             InitializeComponent();
-           
+
             dbContext = new DBContext();
             pathApp = this.getDrictoryApp();
             this.loadData(null);
             this.setComboboxCreatedDate();
         }
-
         public string getDrictoryApp()
         {
             string projectDirectory = AppDomain.CurrentDomain.BaseDirectory;
@@ -52,10 +51,12 @@ namespace QLTV.Module.MuonTra.MuonSach
             var query = from BorrowRequest in dbContext.BorrowRequests
                         join Reader in dbContext.Readers on BorrowRequest.ReaderId equals Reader.Id
                         join Book in dbContext.Books on BorrowRequest.BookId equals Book.Id
-                        where BorrowRequest.Deleted == 0
+                        where BorrowRequest.Deleted == 0 
+                        where BorrowRequest.Status == 0
+                        orderby BorrowRequest.UpdatedAt descending
                         select new { Book, BorrowRequest, Reader };
 
-           
+
             if (constraint != null)
             {
                 if (constraint.TryGetValue("cmt", out string cmt))
@@ -86,7 +87,7 @@ namespace QLTV.Module.MuonTra.MuonSach
             }).ToList();
 
             this.dataGridViewData.Rows.Clear();
-           
+
 
             foreach (MuonSachShow ss in listData)
             {
@@ -123,9 +124,32 @@ namespace QLTV.Module.MuonTra.MuonSach
                 if (this.comboBoxNgayTao.SelectedIndex == 1) constraint.Add("updatedAt", "desc");
                 if (this.comboBoxNgayTao.SelectedIndex == 2) constraint.Add("updatedAt", "asc");
             }
-           
+
             if (!string.IsNullOrEmpty(this.textBoxTimkiem.Text)) constraint.Add("cmt", this.textBoxTimkiem.Text);
             this.loadData(constraint);
+        }
+
+        private void buttonThem_Click(object sender, EventArgs e)
+        {
+            borrow form = new borrow();
+            form._eventAdd += this.reLoadData;
+            form.Show();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            if (this.dataGridViewData.SelectedRows.Count > 0)
+            {
+                int id = int.Parse(this.dataGridViewData.SelectedRows[0].Cells[0].Value.ToString());
+                pay form = new pay(id);
+                form._eventAdd += this.reLoadData;
+                form.Show();
+            }
+            else
+            {
+                MessageBox.Show("Bạn cần chọn ít nhật một đối tượng để thực hiện hành động .");
+            }
+       
         }
     }
 }
