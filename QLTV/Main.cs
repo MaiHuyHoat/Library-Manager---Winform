@@ -22,7 +22,7 @@ using module_MuonSach = QLTV.Module.MuonTra.MuonSach;
 
 
 
-using module_MuonSach = QLTV.Module.MuonTra.MuonSach;
+
 using module_TinhHinhPV = QLTV.Module.BaoCao.TinhHinhPhucVu;
 
 
@@ -111,10 +111,7 @@ namespace QLTV
 
         }
 
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-
+       
 
         private void buttonDocGia_Click(object sender, EventArgs e)
         {
@@ -149,6 +146,7 @@ namespace QLTV
                 module_TinhHinhPV.index.Instance.BringToFront();
             }
             else module_TinhHinhPV.index.Instance.BringToFront();
+
         }
     }
 }
