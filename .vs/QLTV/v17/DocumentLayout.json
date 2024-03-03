@@ -3,24 +3,16 @@
   "WorkspaceRootPath": "D:\\WinForm\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{21758C2F-69E8-4FBC-9DF9-98BBB3A7FDFE}|QLTV\\QLTV.csproj|d:\\winform\\qltv\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{21758C2F-69E8-4FBC-9DF9-98BBB3A7FDFE}|QLTV\\QLTV.csproj|solutionrelative:qltv\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{21758C2F-69E8-4FBC-9DF9-98BBB3A7FDFE}|QLTV\\QLTV.csproj|d:\\winform\\qltv\\module\\login\\index.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{21758C2F-69E8-4FBC-9DF9-98BBB3A7FDFE}|QLTV\\QLTV.csproj|solutionrelative:qltv\\module\\login\\index.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{21758C2F-69E8-4FBC-9DF9-98BBB3A7FDFE}|QLTV\\QLTV.csproj|d:\\winform\\qltv\\main.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{21758C2F-69E8-4FBC-9DF9-98BBB3A7FDFE}|QLTV\\QLTV.csproj|solutionrelative:qltv\\main.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{21758C2F-69E8-4FBC-9DF9-98BBB3A7FDFE}|QLTV\\QLTV.csproj|d:\\winform\\qltv\\module\\login\\index.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21758C2F-69E8-4FBC-9DF9-98BBB3A7FDFE}|QLTV\\QLTV.csproj|solutionrelative:qltv\\module\\login\\index.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{21758C2F-69E8-4FBC-9DF9-98BBB3A7FDFE}|QLTV\\QLTV.csproj|d:\\winform\\qltv\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{21758C2F-69E8-4FBC-9DF9-98BBB3A7FDFE}|QLTV\\QLTV.csproj|solutionrelative:qltv\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{21758C2F-69E8-4FBC-9DF9-98BBB3A7FDFE}|QLTV\\QLTV.csproj|D:\\WinForm\\qltv\\module\\dashboard\\index.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{21758C2F-69E8-4FBC-9DF9-98BBB3A7FDFE}|QLTV\\QLTV.csproj|d:\\winform\\qltv\\module\\dashboard\\index.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{21758C2F-69E8-4FBC-9DF9-98BBB3A7FDFE}|QLTV\\QLTV.csproj|solutionrelative:qltv\\module\\dashboard\\index.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{21758C2F-69E8-4FBC-9DF9-98BBB3A7FDFE}|QLTV\\QLTV.csproj|D:\\WinForm\\qltv\\module\\dashboard\\index.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{21758C2F-69E8-4FBC-9DF9-98BBB3A7FDFE}|QLTV\\QLTV.csproj|solutionrelative:qltv\\module\\dashboard\\index.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -35,63 +27,39 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Main.cs",
-              "DocumentMoniker": "D:\\WinForm\\QLTV\\Main.cs",
-              "RelativeDocumentMoniker": "QLTV\\Main.cs",
-              "ToolTip": "D:\\WinForm\\QLTV\\Main.cs",
-              "RelativeToolTip": "QLTV\\Main.cs",
-              "ViewState": "AQIAAIIAAAAAAAAAAAAAwIkAAAANAAAA",
+              "Title": "index.cs [Design]",
+              "DocumentMoniker": "D:\\WinForm\\QLTV\\Module\\Login\\index.cs",
+              "RelativeDocumentMoniker": "QLTV\\Module\\Login\\index.cs",
+              "ToolTip": "D:\\WinForm\\QLTV\\Module\\Login\\index.cs [Design]*",
+              "RelativeToolTip": "QLTV\\Module\\Login\\index.cs [Design]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-02T13:24:08.573Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-03T01:13:29.47Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Main.Designer.cs",
-              "DocumentMoniker": "D:\\WinForm\\QLTV\\Main.Designer.cs",
-              "RelativeDocumentMoniker": "QLTV\\Main.Designer.cs",
-              "ToolTip": "D:\\WinForm\\QLTV\\Main.Designer.cs",
-              "RelativeToolTip": "QLTV\\Main.Designer.cs",
-              "ViewState": "AQIAAKkAAAAAAAAAAAAQwMAAAAA4AAAA",
+              "Title": "index.Designer.cs",
+              "DocumentMoniker": "D:\\WinForm\\QLTV\\Module\\Login\\index.Designer.cs",
+              "RelativeDocumentMoniker": "QLTV\\Module\\Login\\index.Designer.cs",
+              "ToolTip": "D:\\WinForm\\QLTV\\Module\\Login\\index.Designer.cs*",
+              "RelativeToolTip": "QLTV\\Module\\Login\\index.Designer.cs*",
+              "ViewState": "AQIAABAAAAAA/v//////vxsAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-02T13:23:23.238Z",
+              "WhenOpened": "2024-03-03T01:12:24.424Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Main.cs [Design]",
-              "DocumentMoniker": "D:\\WinForm\\QLTV\\Main.cs",
-              "RelativeDocumentMoniker": "QLTV\\Main.cs",
-              "ToolTip": "D:\\WinForm\\QLTV\\Main.cs [Design]",
-              "RelativeToolTip": "QLTV\\Main.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-02T09:59:58.243Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "index.cs",
-              "DocumentMoniker": "D:\\WinForm\\QLTV\\Module\\Dashboard\\index.cs",
-              "RelativeDocumentMoniker": "QLTV\\Module\\Dashboard\\index.cs",
-              "ToolTip": "D:\\WinForm\\QLTV\\Module\\Dashboard\\index.cs",
-              "RelativeToolTip": "QLTV\\Module\\Dashboard\\index.cs",
-              "ViewState": "AQIAAC8AAAAAAAAAAAAQwDwAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-02T09:57:46.566Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "index.cs [Design]",
               "DocumentMoniker": "D:\\WinForm\\QLTV\\Module\\Dashboard\\index.cs",
               "RelativeDocumentMoniker": "QLTV\\Module\\Dashboard\\index.cs",
               "ToolTip": "D:\\WinForm\\QLTV\\Module\\Dashboard\\index.cs [Design]",
               "RelativeToolTip": "QLTV\\Module\\Dashboard\\index.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-02T09:27:51.756Z"
+              "WhenOpened": "2024-03-02T19:23:36.377Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }
