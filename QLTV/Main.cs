@@ -91,7 +91,6 @@ namespace QLTV
             else module_TacGia.index.Instance.BringToFront();
         }
 
-<<<<<<< HEAD
         private void buttonNhaXuatBan_Click(object sender, EventArgs e)
         {
             if (!panelMain.Controls.Contains(module_NhaXuatBan.index.Instance))
@@ -107,8 +106,8 @@ namespace QLTV
 
         private void label1_Click(object sender, EventArgs e)
         {
+        }
 
-=======
 
         private void buttonDocGia_Click(object sender, EventArgs e)
         {
@@ -142,7 +141,7 @@ namespace QLTV
                 module_TinhHinhPV.index.Instance.BringToFront();
             }
             else module_TinhHinhPV.index.Instance.BringToFront();
->>>>>>> 6a86b6b2eeec0450416422be297075061c3f76a4
+
         }
     }
 }

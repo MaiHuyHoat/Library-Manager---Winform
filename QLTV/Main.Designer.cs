@@ -114,7 +114,7 @@
             button14.TabIndex = 13;
             button14.Text = "Tình hình phục vụ";
             button14.UseVisualStyleBackColor = true;
-            button14.Click += button14_Click;
+         
             // 
             // button15
             // 
@@ -147,7 +147,7 @@
             buttonMuonSach.TabIndex = 11;
             buttonMuonSach.Text = "Mượn sách";
             buttonMuonSach.UseVisualStyleBackColor = true;
-            buttonMuonSach.Click += buttonMuonSach_Click;
+       
             // 
             // buttonLSMuon_Tra
             // 
@@ -180,7 +180,7 @@
             buttonDocGia.TabIndex = 8;
             buttonDocGia.Text = "Độc giả";
             buttonDocGia.UseVisualStyleBackColor = true;
-            buttonDocGia.Click += buttonDocGia_Click;
+            
             // 
             // buttonTheLoai
             // 

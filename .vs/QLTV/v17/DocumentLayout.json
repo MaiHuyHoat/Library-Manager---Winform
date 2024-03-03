@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "D:\\WinForm\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{21758C2F-69E8-4FBC-9DF9-98BBB3A7FDFE}|QLTV\\QLTV.csproj|d:\\winform\\qltv\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21758C2F-69E8-4FBC-9DF9-98BBB3A7FDFE}|QLTV\\QLTV.csproj|solutionrelative:qltv\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21758C2F-69E8-4FBC-9DF9-98BBB3A7FDFE}|QLTV\\QLTV.csproj|d:\\winform\\qltv\\main.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21758C2F-69E8-4FBC-9DF9-98BBB3A7FDFE}|QLTV\\QLTV.csproj|solutionrelative:qltv\\main.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{21758C2F-69E8-4FBC-9DF9-98BBB3A7FDFE}|QLTV\\QLTV.csproj|d:\\winform\\qltv\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{21758C2F-69E8-4FBC-9DF9-98BBB3A7FDFE}|QLTV\\QLTV.csproj|solutionrelative:qltv\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
@@ -27,6 +35,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Main.cs",
+              "DocumentMoniker": "D:\\WinForm\\QLTV\\Main.cs",
+              "RelativeDocumentMoniker": "QLTV\\Main.cs",
+              "ToolTip": "D:\\WinForm\\QLTV\\Main.cs",
+              "RelativeToolTip": "QLTV\\Main.cs",
+              "ViewState": "AQIAAIIAAAAAAAAAAAAAwIkAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-02T13:24:08.573Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Main.Designer.cs",
+              "DocumentMoniker": "D:\\WinForm\\QLTV\\Main.Designer.cs",
+              "RelativeDocumentMoniker": "QLTV\\Main.Designer.cs",
+              "ToolTip": "D:\\WinForm\\QLTV\\Main.Designer.cs",
+              "RelativeToolTip": "QLTV\\Main.Designer.cs",
+              "ViewState": "AQIAAKkAAAAAAAAAAAAQwMAAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-02T13:23:23.238Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Main.cs [Design]",
               "DocumentMoniker": "D:\\WinForm\\QLTV\\Main.cs",
               "RelativeDocumentMoniker": "QLTV\\Main.cs",
@@ -38,7 +72,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "index.cs",
               "DocumentMoniker": "D:\\WinForm\\QLTV\\Module\\Dashboard\\index.cs",
               "RelativeDocumentMoniker": "QLTV\\Module\\Dashboard\\index.cs",
@@ -50,7 +84,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "index.cs [Design]",
               "DocumentMoniker": "D:\\WinForm\\QLTV\\Module\\Dashboard\\index.cs",
               "RelativeDocumentMoniker": "QLTV\\Module\\Dashboard\\index.cs",
