@@ -337,6 +337,10 @@
             label1.Size = new Size(203, 32);
             label1.TabIndex = 1;
             label1.Text = "Quản lý thư viện\r\n";
+<<<<<<< HEAD
+=======
+           
+>>>>>>> 60c478370d9ce43872fca9951416219321bf9474
             // 
             // pictureBox1
             // 

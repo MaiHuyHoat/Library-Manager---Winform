@@ -16,10 +16,21 @@ using module_TheLoai = QLTV.Module.TaiNguyen.TheLoai;
 
 using module_DocGia = QLTV.Module.MuonTra.DocGia;
 using System.Xml.Linq;
+<<<<<<< HEAD
+=======
+
 
 using module_MuonSach = QLTV.Module.MuonTra.MuonSach;
+
+>>>>>>> 60c478370d9ce43872fca9951416219321bf9474
+
+
+
 using module_TinhHinhPV = QLTV.Module.BaoCao.TinhHinhPhucVu;
+<<<<<<< HEAD
 using module_LSMuonTra = QLTV.Module.MuonTra.LichSu;
+=======
+>>>>>>> 60c478370d9ce43872fca9951416219321bf9474
 
 
 
@@ -106,6 +117,12 @@ namespace QLTV
             else module_NhaXuatBan.index.Instance.BringToFront();
 
         }
+<<<<<<< HEAD
+=======
+
+
+
+>>>>>>> 60c478370d9ce43872fca9951416219321bf9474
         private void buttonDocGia_Click(object sender, EventArgs e)
         {
             if (!panelMain.Controls.Contains(module_DocGia.index.Instance))
@@ -139,6 +156,7 @@ namespace QLTV
                 module_TinhHinhPV.index.Instance.BringToFront();
             }
             else module_TinhHinhPV.index.Instance.BringToFront();
+<<<<<<< HEAD
         }
 
         private void buttonLSMuon_Tra_Click(object sender, EventArgs e)
@@ -150,6 +168,21 @@ namespace QLTV
                 module_LSMuonTra.index.Instance.BringToFront();
             }
             else module_LSMuonTra.index.Instance.BringToFront();
+=======
+
+        }
+
+        private void buttonDocGia_Click_1(object sender, EventArgs e)
+        {
+            if (!panelMain.Controls.Contains(module_MuonSach.index.Instance))
+            {
+                panelMain.Controls.Add(module_MuonSach.index.Instance);
+                module_MuonSach.index.Instance.Dock = DockStyle.Fill;
+                module_MuonSach.index.Instance.BringToFront();
+            }
+            else module_MuonSach.index.Instance.BringToFront();
+>>>>>>> 60c478370d9ce43872fca9951416219321bf9474
         }
     }
 }
+
