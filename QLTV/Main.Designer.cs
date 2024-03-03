@@ -164,6 +164,7 @@
             buttonLSMuon_Tra.TabIndex = 10;
             buttonLSMuon_Tra.Text = "Lịch sử mượn / trả";
             buttonLSMuon_Tra.UseVisualStyleBackColor = true;
+            buttonLSMuon_Tra.Click += buttonLSMuon_Tra_Click;
             // 
             // buttonDocGia
             // 
@@ -336,7 +337,6 @@
             label1.Size = new Size(203, 32);
             label1.TabIndex = 1;
             label1.Text = "Quản lý thư viện\r\n";
-            label1.Click += label1_Click;
             // 
             // pictureBox1
             // 

@@ -22,6 +22,12 @@
     <Compile Update="Module\MuonTra\DocGia\index.cs">
       <SubType>UserControl</SubType>
     </Compile>
+    <Compile Update="Module\MuonTra\LichSu\detail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Module\MuonTra\LichSu\edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Module\MuonTra\LichSu\index.cs">
       <SubType>UserControl</SubType>
     </Compile>

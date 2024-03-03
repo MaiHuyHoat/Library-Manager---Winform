@@ -16,15 +16,11 @@ using module_TheLoai = QLTV.Module.TaiNguyen.TheLoai;
 
 using module_DocGia = QLTV.Module.MuonTra.DocGia;
 using System.Xml.Linq;
-<<<<<<< HEAD
-
-using module_MuonSach = QLTV.Module.MuonTra.MuonSach;
-
-=======
 
 using module_MuonSach = QLTV.Module.MuonTra.MuonSach;
 using module_TinhHinhPV = QLTV.Module.BaoCao.TinhHinhPhucVu;
->>>>>>> acc54b6c4f8b8e3d9045bc553781642549eddf54
+using module_LSMuonTra = QLTV.Module.MuonTra.LichSu;
+
 
 
 
@@ -97,9 +93,7 @@ namespace QLTV
             else module_TacGia.index.Instance.BringToFront();
         }
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
+
         private void buttonNhaXuatBan_Click(object sender, EventArgs e)
         {
             if (!panelMain.Controls.Contains(module_NhaXuatBan.index.Instance))
@@ -112,13 +106,6 @@ namespace QLTV
             else module_NhaXuatBan.index.Instance.BringToFront();
 
         }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-=======
->>>>>>> acc54b6c4f8b8e3d9045bc553781642549eddf54
-
         private void buttonDocGia_Click(object sender, EventArgs e)
         {
             if (!panelMain.Controls.Contains(module_DocGia.index.Instance))
@@ -140,9 +127,7 @@ namespace QLTV
                 module_MuonSach.index.Instance.BringToFront();
             }
             else module_MuonSach.index.Instance.BringToFront();
-<<<<<<< HEAD
 
-=======
         }
 
         private void button14_Click(object sender, EventArgs e)
@@ -154,8 +139,17 @@ namespace QLTV
                 module_TinhHinhPV.index.Instance.BringToFront();
             }
             else module_TinhHinhPV.index.Instance.BringToFront();
->>>>>>> 6a86b6b2eeec0450416422be297075061c3f76a4
->>>>>>> acc54b6c4f8b8e3d9045bc553781642549eddf54
+        }
+
+        private void buttonLSMuon_Tra_Click(object sender, EventArgs e)
+        {
+            if (!panelMain.Controls.Contains(module_LSMuonTra.index.Instance))
+            {
+                panelMain.Controls.Add(module_LSMuonTra.index.Instance);
+                module_LSMuonTra.index.Instance.Dock = DockStyle.Fill;
+                module_LSMuonTra.index.Instance.BringToFront();
+            }
+            else module_LSMuonTra.index.Instance.BringToFront();
         }
     }
 }
