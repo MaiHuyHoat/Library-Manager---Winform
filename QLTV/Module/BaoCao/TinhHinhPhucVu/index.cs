@@ -10,8 +10,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
-
+using Microsoft.Office.Interop.Excel;
 
 
 namespace QLTV.Module.BaoCao.TinhHinhPhucVu
@@ -121,34 +120,12 @@ namespace QLTV.Module.BaoCao.TinhHinhPhucVu
         //{
             
         //}
-        private void buttonExport_Click(object sender, EventArgs e) { 
-            string filePath = "";
-        // tạo SaveFileDialog để lưu file excel
-        SaveFileDialog dialog = new SaveFileDialog();
-
-        // chỉ lọc ra các file có định dạng Excel
-        dialog.Filter = "Excel | *.xlsx | Excel 2003 | *.xls";
-
-            // Nếu mở file và chọn nơi lưu file thành công sẽ lưu đường dẫn lại dùng
-            if (dialog.ShowDialog() == DialogResult.OK )
-            {
-                filePath = dialog.FileName;
-            }
-
-            // nếu đường dẫn null hoặc rỗng thì báo không hợp lệ và return hàm
-            if (string.IsNullOrEmpty(filePath))
-            {
-                MessageBox.Show("Đường dẫn báo cáo không hợp lệ");
-                return;
-            }
-            //if (!File.Exists(filePath))
+        private void buttonExport_Click(object sender, EventArgs e)
+        {
+            //if (saveFileDialog1.ShowDialog() == DialogResult.OK)
             //{
-            //    // Nếu tệp không tồn tại, tạo tệp mới
-            //    using (File.Create(filePath)) { }
-              
+            //    ToExcel(dataGridViewData, saveFileDialog1.fileName);
             //}
-            MessageBox.Show(filePath);
-            ToExcel(this.dataGridViewData,filePath);
         }
 
         private void ToExcel(DataGridView dataGridViewData, object fileName)
@@ -179,14 +156,7 @@ namespace QLTV.Module.BaoCao.TinhHinhPhucVu
                 {
                     for (int j = 0; j < dataGridViewData.Columns.Count; j++)
                     {
-                        if (dataGridViewData.Rows[i].Cells[j].Value != null)
-                        {
-                            worksheet.Cells[i + 2, j + 1] = dataGridViewData.Rows[i].Cells[j].Value.ToString();
-                        }
-                        else
-                        {
-                            worksheet.Cells[i + 2, j + 1] = "";
-                        }
+                        worksheet.Cells[i + 2, j + 1] = dataGridViewData.Rows[i].Cells[j].Value.ToString();
                     }
                 }
                 // sử dụng phương thức SaveAs() để lưu workbook với filename
@@ -194,7 +164,7 @@ namespace QLTV.Module.BaoCao.TinhHinhPhucVu
                 //đóng workbook
                 workbook.Close();
                 excel.Quit();
-                MessageBox.Show("Xuất dữ liệu ra Excel thành công! : "+fileName);
+                MessageBox.Show("Xuất dữ liệu ra Excel thành công!");
             }
             catch (Exception ex)
             {

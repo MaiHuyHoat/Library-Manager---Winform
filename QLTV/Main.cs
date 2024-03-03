@@ -111,7 +111,7 @@ namespace QLTV
 
         }
 
-       
+
 
         private void buttonDocGia_Click(object sender, EventArgs e)
         {
@@ -147,6 +147,17 @@ namespace QLTV
             }
             else module_TinhHinhPV.index.Instance.BringToFront();
 
+        }
+
+        private void buttonDocGia_Click_1(object sender, EventArgs e)
+        {
+            if (!panelMain.Controls.Contains(module_MuonSach.index.Instance))
+            {
+                panelMain.Controls.Add(module_MuonSach.index.Instance);
+                module_MuonSach.index.Instance.Dock = DockStyle.Fill;
+                module_MuonSach.index.Instance.BringToFront();
+            }
+            else module_MuonSach.index.Instance.BringToFront();
         }
     }
 }
