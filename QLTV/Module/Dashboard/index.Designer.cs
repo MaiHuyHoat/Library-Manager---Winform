@@ -30,6 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(index));
             backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
+            
             label1 = new Label();
             buttonTimKiem = new Button();
             label2 = new Label();
@@ -58,6 +59,10 @@
             pictureBox1 = new PictureBox();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
+            // 
+            // backgroundWorker1
+            // 
+            backgroundWorker1.DoWork += backgroundWorker1_DoWork;
             // 
             // label1
             // 
