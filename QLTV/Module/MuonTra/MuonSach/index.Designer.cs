@@ -38,9 +38,8 @@
             ColumnNgayMuon = new DataGridViewTextBoxColumn();
             ColumnHanTra = new DataGridViewTextBoxColumn();
             buttonTimKiem = new Button();
-            buttonEdit = new Button();
+            buttonSua = new Button();
             buttonXoa = new Button();
-            buttonChiTiet = new Button();
             buttonThem = new Button();
             textBoxTimkiem = new TextBox();
             label5 = new Label();
@@ -48,6 +47,7 @@
             panel1 = new Panel();
             comboBoxNgayTao = new ComboBox();
             label2 = new Label();
+            button1 = new Button();
             ((System.ComponentModel.ISupportInitialize)dataGridViewData).BeginInit();
             panel1.SuspendLayout();
             SuspendLayout();
@@ -134,21 +134,21 @@
             buttonTimKiem.UseVisualStyleBackColor = false;
             buttonTimKiem.Click += buttonTimKiem_Click;
             // 
-            // buttonEdit
+            // buttonSua
             // 
-            buttonEdit.BackColor = Color.FromArgb(255, 128, 0);
-            buttonEdit.FlatAppearance.BorderSize = 0;
-            buttonEdit.FlatStyle = FlatStyle.Flat;
-            buttonEdit.Font = new Font("Segoe UI", 11.25F, FontStyle.Bold, GraphicsUnit.Point);
-            buttonEdit.ForeColor = SystemColors.ButtonHighlight;
-            buttonEdit.Image = (Image)resources.GetObject("buttonEdit.Image");
-            buttonEdit.ImageAlign = ContentAlignment.MiddleLeft;
-            buttonEdit.Location = new Point(1101, 350);
-            buttonEdit.Name = "buttonEdit";
-            buttonEdit.Size = new Size(99, 39);
-            buttonEdit.TabIndex = 28;
-            buttonEdit.Text = "Sửa";
-            buttonEdit.UseVisualStyleBackColor = false;
+            buttonSua.BackColor = SystemColors.Highlight;
+            buttonSua.FlatAppearance.BorderSize = 0;
+            buttonSua.FlatStyle = FlatStyle.Flat;
+            buttonSua.Font = new Font("Segoe UI", 11.25F, FontStyle.Bold, GraphicsUnit.Point);
+            buttonSua.ForeColor = SystemColors.ButtonHighlight;
+            buttonSua.Image = (Image)resources.GetObject("buttonSua.Image");
+            buttonSua.ImageAlign = ContentAlignment.MiddleLeft;
+            buttonSua.Location = new Point(1087, 315);
+            buttonSua.Name = "buttonSua";
+            buttonSua.Size = new Size(131, 39);
+            buttonSua.TabIndex = 28;
+            buttonSua.Text = "Sửa";
+            buttonSua.UseVisualStyleBackColor = false;
             // 
             // buttonXoa
             // 
@@ -159,28 +159,12 @@
             buttonXoa.ForeColor = SystemColors.ButtonHighlight;
             buttonXoa.Image = (Image)resources.GetObject("buttonXoa.Image");
             buttonXoa.ImageAlign = ContentAlignment.MiddleLeft;
-            buttonXoa.Location = new Point(1101, 431);
+            buttonXoa.Location = new Point(1087, 432);
             buttonXoa.Name = "buttonXoa";
-            buttonXoa.Size = new Size(99, 39);
+            buttonXoa.Size = new Size(131, 39);
             buttonXoa.TabIndex = 27;
             buttonXoa.Text = "Xoá";
             buttonXoa.UseVisualStyleBackColor = false;
-            // 
-            // buttonChiTiet
-            // 
-            buttonChiTiet.BackColor = Color.FromArgb(192, 64, 0);
-            buttonChiTiet.FlatAppearance.BorderSize = 0;
-            buttonChiTiet.FlatStyle = FlatStyle.Flat;
-            buttonChiTiet.Font = new Font("Segoe UI", 11.25F, FontStyle.Bold, GraphicsUnit.Point);
-            buttonChiTiet.ForeColor = SystemColors.ButtonHighlight;
-            buttonChiTiet.Image = (Image)resources.GetObject("buttonChiTiet.Image");
-            buttonChiTiet.ImageAlign = ContentAlignment.MiddleLeft;
-            buttonChiTiet.Location = new Point(1101, 219);
-            buttonChiTiet.Name = "buttonChiTiet";
-            buttonChiTiet.Size = new Size(99, 39);
-            buttonChiTiet.TabIndex = 26;
-            buttonChiTiet.Text = "Chi tiết";
-            buttonChiTiet.UseVisualStyleBackColor = false;
             // 
             // buttonThem
             // 
@@ -191,12 +175,13 @@
             buttonThem.ForeColor = SystemColors.ButtonHighlight;
             buttonThem.Image = (Image)resources.GetObject("buttonThem.Image");
             buttonThem.ImageAlign = ContentAlignment.MiddleLeft;
-            buttonThem.Location = new Point(1101, 283);
+            buttonThem.Location = new Point(1087, 248);
             buttonThem.Name = "buttonThem";
-            buttonThem.Size = new Size(99, 39);
+            buttonThem.Size = new Size(131, 39);
             buttonThem.TabIndex = 25;
-            buttonThem.Text = "Thêm";
+            buttonThem.Text = "Mượn sách";
             buttonThem.UseVisualStyleBackColor = false;
+            buttonThem.Click += buttonThem_Click;
             // 
             // textBoxTimkiem
             // 
@@ -253,17 +238,34 @@
             label2.TabIndex = 31;
             label2.Text = "Ngày tạo :";
             // 
+            // button1
+            // 
+            button1.BackColor = Color.OrangeRed;
+            button1.FlatAppearance.BorderSize = 0;
+            button1.FlatStyle = FlatStyle.Flat;
+            button1.Font = new Font("Segoe UI", 11.25F, FontStyle.Bold, GraphicsUnit.Point);
+            button1.ForeColor = SystemColors.ButtonHighlight;
+            button1.Image = (Image)resources.GetObject("button1.Image");
+            button1.ImageAlign = ContentAlignment.MiddleLeft;
+            button1.Location = new Point(1087, 372);
+            button1.Name = "button1";
+            button1.Size = new Size(131, 39);
+            button1.TabIndex = 33;
+            button1.Text = "Trả sách";
+            button1.UseVisualStyleBackColor = false;
+            button1.Click += button1_Click;
+            // 
             // index
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+            Controls.Add(button1);
             Controls.Add(comboBoxNgayTao);
             Controls.Add(label2);
             Controls.Add(dataGridViewData);
             Controls.Add(buttonTimKiem);
-            Controls.Add(buttonEdit);
+            Controls.Add(buttonSua);
             Controls.Add(buttonXoa);
-            Controls.Add(buttonChiTiet);
             Controls.Add(buttonThem);
             Controls.Add(textBoxTimkiem);
             Controls.Add(label5);
@@ -280,9 +282,8 @@
         #endregion
         private DataGridView dataGridViewData;
         private Button buttonTimKiem;
-        private Button buttonEdit;
+        private Button buttonSua;
         private Button buttonXoa;
-        private Button buttonChiTiet;
         private Button buttonThem;
         private TextBox textBoxTimkiem;
         private Label label5;
@@ -297,5 +298,6 @@
         private DataGridViewTextBoxColumn ColumnCMT;
         private DataGridViewTextBoxColumn ColumnNgayMuon;
         private DataGridViewTextBoxColumn ColumnHanTra;
+        private Button button1;
     }
 }

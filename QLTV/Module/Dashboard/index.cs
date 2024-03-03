@@ -60,10 +60,5 @@ namespace QLTV.Module.Dashboard
         {
 
         }
-
-        private void backgroundWorker1_DoWork(object sender, DoWorkEventArgs e)
-        {
-
-        }
     }
 }

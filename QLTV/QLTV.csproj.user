@@ -28,9 +28,18 @@
     <Compile Update="Module\MuonTra\LichSu\index.cs">
       <SubType>UserControl</SubType>
     </Compile>
+    <Compile Update="Module\MuonTra\MuonSach\borrow.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Module\MuonTra\MuonSach\index.cs">
       <SubType>UserControl</SubType>
     </Compile>
+<<<<<<< HEAD
+=======
+    <Compile Update="Module\MuonTra\MuonSach\pay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+>>>>>>> 37e9f3fb684991462c341feb96811405c30638fc
     <Compile Update="Module\TaiNguyen\NhaXuatBan\add.cs">
       <SubType>Form</SubType>
     </Compile>

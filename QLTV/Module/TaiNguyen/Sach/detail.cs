@@ -26,6 +26,7 @@ namespace QLTV.Module.TaiNguyen.Sach
             this.idBook = id;
             this.setExistedData();
         }
+
         public string getDrictoryApp()
         {
             string projectDirectory = AppDomain.CurrentDomain.BaseDirectory;
