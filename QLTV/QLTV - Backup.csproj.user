@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Compile Update="Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Module\BaoCao\TinhHinhPhucVu\index.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Module\Dashboard\index.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Module\Login\index.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Module\MuonTra\DocGia\add.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Module\MuonTra\DocGia\detail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Module\MuonTra\DocGia\edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Module\MuonTra\DocGia\index.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Module\MuonTra\LichSu\index.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Module\MuonTra\MuonSach\borrow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Module\MuonTra\MuonSach\index.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+<<<<<<< HEAD
+=======
+    <Compile Update="Module\MuonTra\MuonSach\pay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+>>>>>>> 37e9f3fb684991462c341feb96811405c30638fc
+    <Compile Update="Module\TaiNguyen\NhaXuatBan\add.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Module\TaiNguyen\NhaXuatBan\edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Module\TaiNguyen\NhaXuatBan\index.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Module\TaiNguyen\Sach\add.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Module\TaiNguyen\Sach\detail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Module\TaiNguyen\Sach\edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Module\TaiNguyen\Sach\index.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Module\TaiNguyen\TacGia\add.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Module\TaiNguyen\TacGia\edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Module\TaiNguyen\TacGia\index.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Module\TaiNguyen\TheLoai\add.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Module\TaiNguyen\TheLoai\edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Module\TaiNguyen\TheLoai\index.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Update="Module\TaiNguyen\Sach\index.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+</Project>
